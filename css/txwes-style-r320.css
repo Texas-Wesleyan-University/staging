@@ -1,0 +1,61 @@
+@media screen and (max-width: 479px) {
+	
+	#headerTop #logo { width: 119px; height: 46px; top: 12px; left: 10px; background-image: url('http://cms.txwes.edu/media/twu/style-assets/images/university-logo-320_125.png'); }
+	
+	/* Homepage Content */
+	
+	.slider-banner { height:53px; }
+	.slider-banner #slider-banner-icon { height:53px; width:61px; }
+	.slider-banner .slider-banner-content { top: 2px; left: 65px; padding-right: 32px; font-size: 0.8em; }
+	.slider-banner .slider-banner-content .slider-banner-title .slider-banner-date { display: none; }
+	.slider-banner .slider-banner-content .slider-banner-text { font-size: 0.9em; }
+	
+	#homepageTop #applyColumn { padding: 15px 18px; }
+	#homepageTop #applyColumn #classContent ul li { font-size: 0.9em; white-space: nowrap; padding: 15px 5px; width: calc(50% - 11px); }
+	#homepageTop #actionBar .actionItem { padding: 0px 18px; }
+	#homepageBottom #homepageNews { padding-left: 18px; padding-right: 18px; }
+	#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem { width: 100%;  }
+	#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem img { float: none; width: 100%; margin-right: 0px; margin-bottom: 10px; }
+	#homepageBottom #homepageEvents { padding-left: 18px; padding-right: 18px; }
+	
+	#goToCT #goToNav li { margin-bottom: 20px; border: none; width: calc(50% - 40px); }
+	
+	/* Emergency Alerts Page */
+	
+	#alertDisplay #warning-image { width: 75px; }
+	#alertDisplay #warning-text { width: calc(100% - 105px); }
+	#emergencyNav .emergencyButton { width: calc(50% - 30px); margin-right: 0px; }
+	#emergencyNav .emergencyButton .emergencyIcon img { width: 35px; }
+	#emergencyNav .emergencyButton:nth-child(even) { margin-right: 10px; }
+	
+	/* News and Events Page */
+	
+	#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryTitle { font-size: 1.2em; }
+	
+	/* Counselor Callout */
+	
+	.selectRowContainer .selectRow { padding-bottom: 2.2em; }
+	.selectRowContainer .selectRow .selectRowText { margin-left: 85px; }
+	.selectRowContainer .selectRow .selectRowControls, .selectRowContainer .selectRow .professorCalloutEmailButton { top: auto; bottom: 0px; right: 50%; margin-right: -35%; width: 70%; }
+	
+	/* Counselor Details */
+	
+	#counselorContainer #counselorPhoto #counselorName { bottom: 115px; }
+	#counselorContainer #counselorPhoto #hometown { bottom: 75px; }
+	#counselorContainer #counselorPhoto #contact { max-height: 75px; position: static; }
+	#counselorContainer #counselorPhoto #contact #email { float: none; border: none; }
+	#counselorContainer #counselorPhoto #contact #phone { float: none; }
+	#counselorContainer #counselorPhoto #contact #facebook { height: 75px; }
+	
+	/* Horizontal News List */
+	
+	#contentCT.threeCol .horizontalNewsList .newsItem, .horizontalNewsList .newsItem, #contentCT.newsEvents .horizontalNewsList .newsItem { width: 100%; float: none; margin: 0px 0px 20px; }
+	.horizontalNewsList .newsItem .image, .horizontalNewsList .newsItem .title { width: 100%; margin: 0px auto; }
+	.horizontalNewsList .newsItem .category { width: 100%; margin: 8px auto 10px; }
+	#contentCT.threeCol .horizontalNewsList .newsItem .image, #contentCT.threeCol .horizontalNewsList .newsItem .title { width: 100%; margin: 0px auto; }
+	#contentCT.threeCol .horizontalNewsList .newsItem .category { width: 100%; margin: 8px auto 10px; }
+	#contentCT.newsEvents .horizontalNewsList .newsItem .image, #contentCT.newsEvents .horizontalNewsList .newsItem .title { width: 100%; margin: 0px auto; }
+	#contentCT.newsEvents .horizontalNewsList .newsItem .category { width: 100%; margin: 8px auto 10px; }
+	.horizontalNewsList .newsItem .image img:first-child { width: 100%; }
+	
+}

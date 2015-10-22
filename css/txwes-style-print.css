@@ -1,0 +1,19 @@
+@media print {
+	
+	* { background: none; }
+	
+	#outerCT { width: 100%; }
+	#headerCT { display: none; }
+	
+	#breadcrumb { padding-left: 0px; }
+	#contentCT #leftCol { display: none; }
+	h1.pageTitle { padding-left: 0px; }
+	#contentCT #rightCol { display: none; }
+	#contentCT #centerCol { width: 100% !important; border: none !important; padding: 10px 0px !important; }
+	#leftColContentCT { display: none; }
+	#contactInfoCT { display: none; }
+	
+	#footerCT { display: none; }
+	#goToCT { display: none; }
+
+}

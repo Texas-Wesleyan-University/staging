@@ -1,0 +1,821 @@
+/* Content Types and Layouts */
+
+/* Shield Title - Wesleyan Shield with Title Text and Rich Text */
+
+.shieldTitle { background-image: url('/media/twu/style-assets/images/logoTitle.png'); background-repeat: no-repeat; background-position: left center; font-size: 1.8em; font-weight: bold; color: #666; padding-left: 39px; }
+
+/* Featured Content with Image */
+
+.featuredContent { overflow: auto; padding-bottom: 20px; border-bottom: 1px solid #002460; margin-bottom: 20px; }
+.featuredContent .title { background-image: url('/media/twu/style-assets/images/featureSelectTitle.png'); background-repeat: repeat-y; font-size: 1.2em; font-weight: bold; color: #666; padding: 2px 0px 2px 10px; margin-bottom: 20px; }
+.featuredContent .image { float: left; width: 200px; margin-right: 20px; }
+.featuredContent .image img { width: 100% }
+.featuredContent .content { overflow: auto; }
+.featuredContent .viewMore { float: right; width: 85px; height: 15px; background-image: url('/media/twu/style-assets/images/viewMore.png'); }
+.featuredContent .content *:first-child { margin-top: 0px; }
+
+/* Featured Content with Image - variant 1 (No Yellow Gradient for Title) */
+
+.featuredContent.varOne .title { background-image: none; font-size: 1.2em; font-weight: bold; color: #666; padding: 2px 0px 2px 10px; margin-bottom: 20px; }
+.featuredContent.noImage .title { padding-left: 0px; }
+
+/* Action Box - Grey box in Right Column, has header and text, used for calls to actions */
+
+.actionBox { position: relative; top: 0px; left: 0px; margin-bottom: 20px; }
+.actionBox .header { background-image: url('/media/twu/style-assets/images/infoBoxHeader.png'); background-repeat: no-repeat; font-size: 1.3em; font-weight: bold; color: #666; padding: 9px 15px 4px; }
+.actionBox .content { background-image: url('/media/twu/style-assets/images/infoBoxText.png'); background-repeat: no-repeat; background-position: center bottom; border: 1px solid #ccc; border-top: none; padding: 20px 15px 25px; color: #666; font-size: 0.9em; }
+.actionBox .arrow { background-image: url('/media/twu/style-assets/images/infoBoxGreyArrow.png'); width: 11px; height: 15px; position: absolute; right: 10px; bottom: 10px; }
+.actionBox:hover .arrow { background-image: url('/media/twu/style-assets/images/infoBoxBlueArrow.png'); }
+
+/* Emergency Page Content */
+
+#alertDisplay { width: 420px; float: left; position: relative; top: 0px; left: 0px; padding: 20px; border: 2px solid red; margin-top: 20px; overflow: auto; }
+#alertDisplay #warning-image { float: left; width: 120px; background-color: #191919;  }
+#alertDisplay #warning-text { float: right; overflow: auto; width: 280px; min-width: 139px; }
+#alertDisplay #warning-text h2 { margin: 0px; padding: 0px; }
+#alertDisplay #warning-text .warning-date { }
+#alertDisplay #warning-text .learnMore { width: 139px; height: 37px; background-image: url('/media/twu/style-assets/images/responsive/learn-more.png'); white-space: nowrap; overflow: hidden; text-indent: 200px; background-repeat: no-repeat; }
+
+#contact911 { width: 224px; float: right; clear: right; }
+#contact911 #contact911Title { font-size:1.4em; font-weight: bold; overflow:auto; margin-bottom: 10px; background-image: url('/media/twu/content-assets/images/emergency-alerts/images/call 911.png'); background-repeat: no-repeat; background-position: left center; margin-top: 20px; line-height: 36px; padding-left: 40px; }
+#contact911 #contact911Content { background-color:#f3f3f3;padding:1px 15px 15px;margin-bottom:20px; }
+#contact911 #contact911Content ul { list-style-image: url('/media/twu/content-assets/images/emergency-alerts/images/yellow spot.png'); }
+#contact911 #contact911Content ul li { padding: 5px; }
+#contact911 #contact911Content .spacer { border-top: 1px dashed #ccc; height: 1px; }
+
+#alertsSignUp { width: 460px; float: left; }
+
+#emergencyNav { border-top: 1px dashed #ccc; padding: 10px 0px; width: 460px; float: left; overflow: auto; }
+#emergencyNav h4 { margin-bottom: 10px; }
+#emergencyNav .emergencyButton { background-color:#f3f3f3; border:1px solid #ccc; cursor:pointer; padding:10px 10px; float: left; width: 121px; margin-right: 10px; margin-bottom: 10px; overflow: auto; position: relative; top: 0px; left: 0px; }
+#emergencyNav .emergencyButton:nth-child(3n+4) { margin-right: 0px; }
+#emergencyNav .emergencyButton:hover { background-color:#fed000; }
+#emergencyNav .emergencyButton .emergencyIcon { float: left; }
+#emergencyNav .emergencyButton .emergencyIcon img { width: 50px; }
+#emergencyNav .emergencyButton .emergencyTitle { float: right; width: 65px; font-size: 0.9em;  }
+
+#emergencyProcedures { border:1px solid #ccc;width:222px;float:right;clear:right;margin-bottom:20px; }
+#emergencyProcedures #emergencyProceduresTitle { background-color:#004b8d;color:#ffffff;border-bottom:1px solid #f3f3f3;font-size:1.2em;padding:3px 5px; }
+#emergencyProcedures #emergencyProceduresContent { padding:10px; }
+#emergencyProcedures #emergencyProceduresContent ul { list-style-image:url('/media/twu/content-assets/images/emergency-alerts/images/grey spot.png'); }
+#emergencyProcedures #emergencyProceduresContent ul li { padding: 5px; font-weight: bold; }
+
+#facilitiesSecurity { overflow:auto;width:460px;float:left; margin-bottom: 20px; }
+#facilitiesSecurity #facilities { float:left; }
+#facilitiesSecurity #facilities #facilitiesCT { border:1px solid #ccc; width:222px; min-height:274px; }
+#facilitiesSecurity #facilities #facilitiesCT #facilitiesHeader { background-color:#f3f3f3;position:relative;top:0px;left:0px;height:35px; }
+#facilitiesSecurity #facilities #facilitiesCT #facilitiesHeader #facilitiesIcon { position:absolute;top:-1px;left:-1px; }
+#facilitiesSecurity #facilities #facilitiesCT #facilitiesHeader #facilitiesTitle { position:relative;left:47px;top:7px; }
+#facilitiesSecurity #facilities #facilitiesCT #facilitiesPhoto { width: 222px; }
+#facilitiesSecurity #facilities #facilitiesCT #facilitiesContent { padding:15px; font-size: 0.9em; }
+#facilitiesSecurity #facilities #facilitiesCT #facilitiesFooter { border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#f3f3f3;height:20px; }
+#facilitiesSecurity #security { float:right; }
+#facilitiesSecurity #security #securityCT { border:1px solid #ccc;width:222px;min-height:274px; }
+#facilitiesSecurity #security #securityCT #securityHeader { background-color:#666666;color:#ffffff;height:35px; }
+#facilitiesSecurity #security #securityCT #securityHeader #securityIcon { position:absolute;top:-1px;left:-1px; }
+#facilitiesSecurity #security #securityCT #securityHeader #securityTitle { position:relative;top:10px;left:10px; }
+#facilitiesSecurity #security #securityCT #securityPhoto { width: 222px; }
+#facilitiesSecurity #security #securityCT #securityContent { padding:15px; font-size: 0.9em; }
+#facilitiesSecurity #security #securityCT #securityContent div:nth-child(2n) { text-align: right; margin-bottom: 5px; }
+#facilitiesSecurity #security #securityCT #securityFooter { border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#f3f3f3;height:20px; }
+
+#disabilities { width:224px;float:right;clear:right; margin-bottom: 20px; }
+#disabilities #disabilitiesCT { border:1px solid #ccc; }
+#disabilities #disabilitiesCT #disabilitiesHeader { background-color:#004b8d;color:#ffffff;border-bottom:1px solid #f3f3f3;font-size:1.2em;padding:3px 5px; }
+#disabilities #disabilitiesCT #disabilitiesContent { padding: 15px; }
+#disabilities #disabilitiesCT #disabilitiesFooter { border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#f3f3f3;height:20px; }
+
+/* News and Events Content */
+
+#newsEventsTop { overflow: auto; width: 100%; position: relative; top: 0px; left: 0px; margin-top: 20px;margin-bottom:20px; }
+
+#newsEventsTop #featuredStory { float: left; width: 435px; border-top: 4px solid #fed000; padding-top: 10px; }
+#newsEventsTop #featuredStory #featuredStoryDate { float: right; }
+#newsEventsTop #featuredStory #featuredStoryBanner { color:#000000;height:35px;width:189px;background-image:url('/media/twu/style-assets/images/featuredStoryTag.png');font-weight:bold;text-indent:200px;overflow:hidden;white-space:nowrap; }
+#newsEventsTop #featuredStory #featuredStoryContent { width: 413px; padding: 10px; border: 1px solid #cccccc;overflow:auto; min-height: 432px; }
+#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryTitle { font-size: 1.3em; margin-bottom: 10px; }
+#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryTitle a, #newsEventsTop #featuredStory #featuredStoryContent #featuredStoryTitle a:visited { color: inherit; }
+#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryPhoto { width:100%;margin-bottom:10px; }
+#newsEventsTop #featuredStory #featuredStoryContent #featuredStorySummary { font-size: 0.9em; margin-bottom: 10px; }
+#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryLearnMore { width:85px;height:15px;float:right;clear:both;background-image:url('/media/twu/style-assets/images/viewMore.png'); }
+
+#newsEventsTop #featuredStoriesList { border-top:4px solid #fed000; padding-top: 10px; width:230px;float: right; }
+#newsEventsTop #featuredStoriesList #featuredStoriesHeader { border-bottom: 1px solid #ccc;padding-bottom:16px;margin-bottom:10px;padding-left:5px; }
+#newsEventsTop #featuredStoriesList #featuredStories { padding:0px 5px; }
+#newsEventsTop #featuredStoriesList #featuredStories .featuredListItem { margin-bottom:20px;font-size:0.9em;overflow:auto; }
+#newsEventsTop #featuredStoriesList #featuredStories .featuredListItem .featuredDate { float: right;color:#ccc; }
+#newsEventsTop #featuredStoriesList #featuredStories .featuredListItem .featuredTitle { float: left; width: 145px; }
+
+#newsEventsTop #moreNewsButton { width:228px;height:40px;border:1px solid #ccc;background-image:url('/media/twu/style-assets/images/all_news.png');background-repeat:no-repeat;background-position:95% center;position:absolute;bottom:0px;right:0px; }
+
+#newsEventsBottom { overflow: auto; margin-bottom: 20px; }
+
+#newsEventsBottom #monthlyEvents { border-top:4px solid #fed000;padding-top:10px;width:230px;position:relative;top:0px;left:0px;min-height:300px;float:right;padding-bottom:42px; }
+#newsEventsBottom #monthlyEvents #monthlyEventsHeader { padding-bottom:10px;border-bottom:1px solid #ccc;padding-left:5px; }
+#newsEventsBottom #monthlyEvents #monthlyEventsList { padding:10px; }
+#newsEventsBottom #monthlyEvents #monthlyEventsList ul { list-style-image:url('/media/twu/style-assets/images/greyBullet.png');margin:0px;padding:0px 15px;font-size:0.9em; }
+#newsEventsBottom #monthlyEvents #monthlyEventsList ul li { }
+#newsEventsBottom #monthlyEvents #monthlyEventsLearnMore { width:228px;height:40px;border:1px solid #ccc;background-image:url('/media/twu/style-assets/images/all_events.png');background-repeat:no-repeat;background-position:95% center;position:absolute;bottom:0px;right:0px; }
+
+#newsEventsBottom #engagingEducators { float:right;border-top:4px solid #fed000; border-right: 1px solid #ccc; border-left: 1px solid #ccc;width:205px;min-height:300px;position:relative;top:0px;left:0px;margin-right:20px;padding-top:10px;margin-bottom:42px; }
+#newsEventsBottom #engagingEducators #engagingEducatorsHeader { padding-bottom:10px;border-bottom:1px solid #ccc;padding-left:5px; }
+#newsEventsBottom #engagingEducators #engagingEducatorsPhoto { width:100%; }
+#newsEventsBottom #engagingEducators #engagingEducatorsTitle { font-size:1.2em;padding:15px; }
+#newsEventsBottom #engagingEducators #engagingEducatorsTitle a, #newsEventsBottom #engagingEducators #engagingEducatorsTitle a:visited { color: inherit; }
+#newsEventsBottom #engagingEducators #engagingEducatorsLearnMore { width:205px;height:40px;border:1px solid #ccc;background-image:url('/media/twu/style-assets/images/viewMore.png');background-repeat:no-repeat;background-position:95% center;position:absolute;bottom:-42px;right:-1px; }
+
+#newsEventsBottom #moversShakers { float:right;border-top:4px solid #fed000; border-right: 1px solid #ccc; border-left: 1px solid #ccc;width:205px;min-height:300px;position:relative;top:0px;left:0px;margin-right:21px;padding-top:10px;margin-bottom:42px; }
+#newsEventsBottom #moversShakers #moversShakersHeader { padding-bottom:10px;border-bottom:1px solid #ccc;padding-left:5px; }
+#newsEventsBottom #moversShakers #moversShakersPhoto { width:100%; }
+#newsEventsBottom #moversShakers #moversShakersTitle { font-size:1.2em;padding:15px; }
+#newsEventsBottom #moversShakers #moversShakersTitle a, #newsEventsBottom #moversShakers #moversShakersTitle a:visited { color: inherit; }
+#newsEventsBottom #moversShakers #moversShakersLearnMore { width:205px;height:40px;border:1px solid #ccc;background-image:url('/media/twu/style-assets/images/viewMore.png');background-repeat:no-repeat;background-position:95% center;position:absolute;bottom:-42px;right:-1px; }
+
+/* News Details */
+
+#newsItemContainer { width:450px; float: left;margin-top:20px;margin-bottom:20px; }
+#newsItemContainer #newsItemDate { font-size:0.9em;color:#999999; }
+#newsItemContainer #newsItemTitle { font-size:1.5em;font-weight:bold;border-bottom:1px dashed #ccc;padding:5px 0px 10px 0px; }
+#newsItemContainer #newsItemShareTop { padding: 5px 10px; }
+#newsItemContainer #newsStoryContainer { border-top:1px dashed #ccc;padding:10px 0px; }
+#newsItemContainer #newsStoryContainer .newsItemMainPhoto img { width: 100% }
+#newsItemContainer #newsStoryCotnainer .newsItemBody { }
+#newsItemContainer #newsItemShareBottom { padding-top:10px;border-top:1px dashed #ccc; }
+
+.news-story { }
+.news-story .news-top { overflow: auto; width: 100%; background-image: url('/media/website-resources/images/emails/flame/shortBarDashed.png'); background-repeat: no-repeat; background-position: bottom left; background-size: 48%; }
+.news-story .news-top .news-info { width: 48%; float: left; height: 100%; padding-bottom: 15px; }
+.news-story .news-top .news-photo { float: right; width: 48%; }
+.news-story .news-top .news-photo img { width: 100%; }
+.news-story .news-top .news-info .news-category { margin: 5px 0px; text-transform: uppercase; font-family: 'Oswald'; font-size: 0.9em; }
+.news-story .news-top .news-info .news-title { margin: 0px; }
+.news-story .news-top .news-info .news-date-author { margin: 5px 0px; font-size: 0.9em; }
+.news-story .news-top .news-info .news-share-top { margin: 10px 0px; }
+.news-story .news-share-bottom { margin: 15px 0px; }
+
+#eventItemContainer { width:450px; float: left;margin-top:20px;margin-bottom:20px; }
+#eventItemContainer #eventItemDate { font-size:0.9em;color:#999999; }
+#eventItemContainer #eventItemTitle { font-size:1.5em;font-weight:bold;border-bottom:1px dashed #ccc;padding:5px 0px 10px 0px; }
+#eventItemContainer #eventItemShareTop { padding: 5px 10px; }
+#eventItemContainer #eventItemInfo { padding: 25px 10px; border-top: 1px dashed #ccc; }
+#eventItemContainer #eventItemInfo .infoPiece { overflow: auto; }
+#eventItemContainer #eventItemInfo .infoPiece:first-child { margin-bottom:10px; }
+#eventItemContainer #eventItemInfo .infoPiece .when { float: left; width: 60px; }
+#eventItemContainer #eventItemInfo .infoPiece .where { float: left; width: 60px; }
+#eventItemContainer #eventStoryContainer { border-top:1px dashed #ccc;padding:10px 0px; }
+#eventItemContainer #eventStoryContainer .eventItemMainPhoto img { width: 100% }
+#eventItemContainer #eventStoryContainer .eventItemBody { }
+#eventItemContainer #eventStoryContainer .evetnForm { }
+#eventItemContainer #eventItemShareBottom { padding-top:10px;border-top:1px dashed #ccc; }
+
+#suggestionBox { width:195px; float: right; margin-top:20px; }
+#suggestionBox #sbHeader { font-weight:bold;padding:5px 10px; }
+#suggestionBox #sbList { padding:5px 10px;border-top:1px dashed #ccc;border-bottom:1px dashed #ccc;margin-bottom:10px; }
+#suggestionBox #sbSeeMore { width:118px;height:34px;background-image:url('/media/twu/content-assets/images/news--events/newsEventsSeeMore.png'); }
+#contentCT.threeCol #suggestionBox { display: none; }
+
+/* News Archive */
+
+#newsArchiveContainer { border-top:4px solid #fed000;border-left:1px solid #ccc;border-right:1px solid #ccc; margin-top: 20px; margin-bottom: 20px; }
+#newsArchiveContainer .newsArchiveItem { padding: 10px; font-size: 1em; border-bottom: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); }
+#newsArchiveContainer .newsArchiveItem:hover { background-color:#f6f6f6; }
+#newsArchiveContainer .newsArchiveItem .newsArchiveItemDate { float:right;color:#666666;width:100px;text-align:right; }
+#newsArchiveContainer .newsArchiveItem .newsArchiveItemIcons { float:right;width:100px; }
+#newsArchiveContainer .newsArchiveItem .newsArchiveItemTitle { width:400px;font-weight:bold; }
+#newsArchiveContainer .newsArchiveItem .newsArchiveItemTitle a { color: inherit; }
+#newsArchiveContainer .newsArchiveItem:hover .newsArchiveItemTitle a { color:#004b8d; }
+.AC-Pager {	border-bottom: 1px solid #cccccc; text-align: center; padding-top:5px; padding-bottom: 5px; }
+.AC-Pager .currentpage { padding: 2px 7px; background-color: #666; color:#ffffff; border-radius: 13px; -webkit-border-radius: 13px; -moz-border-radius: 13px; }
+
+/* Events Calendar */
+
+#calendarContainer { position:relative; top:0px; left:0px; margin-top:20px; }
+#calendarContainer .calendar { width:100%; text-align:center; border-bottom:1px solid #f3f3f3; margin-top:1em; }
+#calendarContainer .calendar-row { background-color: #ffffff; }
+#calendarContainer .calendar-row.header { height:1em; padding:3px 0px; text-align:center; font-size:.9em; }
+#calendarContainer .calendar-day-head { width:14%; border-top:2px solid #002460; padding:3px 0px; }
+#calendarContainer .calendar-day { border-left:1px solid #f3f3f3; border-top:1px solid #f3f3f3; padding-top: 4%; padding-bottom: 4%; }
+#calendarContainer .calendar-day.e:hover { cursor:pointer; background-color:#fed000; color:#002460; }
+#calendarContainer .calendar-day.today { background-color:#002460; color:#fed000; }
+#calendarContainer .calendar-day.curDay { color:#002460; background-color:#fed000; }
+#calendarContainer .calendar-day.curDay .dot { display:none; }
+#calendarContainer .calendar-day.eow { border-right:1px solid #f3f3f3; }
+#calendarContainer .calendar-day-np { border:1px solid #f3f3f3; background-color:#f3f3f3 }
+#calendarContainer .day-number { font-size:1.1em; position:relative; top:0px; left:0px; }
+#calendarContainer .day-number .dot { height:10px; width:10px; background-color:#c7e0f0; position:absolute; left:50%; top:50%; margin-left:-5px; margin-top:15px; border-radius:5px; }
+#monthTitle { width:105px; height:1em; text-transform:uppercase; font-size:1.1em; text-align:center; font-weight:bold; overflow-y:hidden; position:absolute; top:0px; left:50%; margin-left:-62px; z-index:11; }
+#monthTitle a, #monthTitle a:visited { color: inherit; }
+#monthTitle:hover { height:2em; overflow-y:visible; }
+#monthTitle .curMonth { cursor:pointer; }
+#monthSelect { font-size:0.8em; text-transform:capitalize; background-color:white; position:absolute; top:2em; left:50%; width:90px; margin-left:-45px; text-align:left; font-weight:normal; border:1px solid #f3f3f3; }
+#monthSelect div { padding:3px; }
+#monthSelect div:hover { background-color:#cccccc; color:#ffffff; cursor:pointer; }
+#mainColumn #monthTitle a:hover { color:#fed000; }
+#calendarYear { position:absolute; top:0px; left:0px; height:1.1em; overflow-y:hidden; z-index:11; width:60px; }
+#calendarYear:hover { height:2em; overflow-y:visible; }
+#selectYear { border:1px solid #f3f3f3; position:absolute; top:1.5em; left:-4px; background-color:white; width:62px; }
+#selectYear div { padding:3px; }
+#selectYear div:hover { background-color:#cccccc; color:#ffffff; cursor:pointer; }
+#calendarDate { padding:0px 21px; }
+#eventsContainer { border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; margin-bottom: 20px; }
+#eventsContainer .event { border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; position:relative; top:0px; left:0px; }
+#eventsContainer .event:hover { background-color:#f3f3f3; }
+#eventsContainer .event .eventTime { float: left; padding-top:15px; width: 100px; text-align: center; position: relative; top: 0px; left: 0px; }
+#eventsContainer .event .eventTitle { font-size: 1.1em; padding: 15px 10px 15px 100px; }
+#eventsContainer .event .eventTime .eventDate { background-color:#c3e0f0; width:38px; padding:1px 3px; font-size:.7em; position:absolute; top:-2px; left:50%; margin-left: -19px; text-align: center; }
+#calendarSelect { position:absolute; top:3px; right:0px; z-index:11; width:150px; height:1.1em; overflow-y:hidden; cursor:pointer; display:none; }
+#calendarSelect:hover { height:2em; overflow-y:visible; }
+#contentCT.newsEvents #calendarSelect { display: block; }
+#calendarOption { border:1px solid #f3f3f3; position:absolute; top:1.5em; left:-6px; background-color:white; width:150px; }
+#calendarOption a, #calendarOption a:visited { color: inherit; }
+#calendarOption div { padding:3px; }
+#calendarOption div:hover { background-color:#cccccc; color:#ffffff; cursor:pointer; }
+#calendarContainer #loading { height:480px; width:680px; position:absolute; top:0px; left:0px; z-index:15; background-color:rgba(256,256,256,0.8); display:none; }
+#calendarContainer #loading img { position:absolute; top:50%; left:50%; margin-left:-18px; margin-top:-20px; }
+#calendarNote { text-align:right; font-size:0.8em; padding-top:5px; }
+
+/* Upcoming Events */
+
+#upcomingEventsList { margin-bottom: 20px; }
+#upcomingEventsList #upcomingEventsHeader { background-color: #5c8ab9;color:#ffffff;padding:8px 15px;overflow:hidden;font-family:'Oswald',Arial,Helvetica,sans-serif;font-size:2em;}
+#upcomingEventsList #upcomingEventsListContainer {border:1px solid #ccc;border-top:none;}
+#upcomingEventsList #upcomingEventsListSubContainer { padding: 10px 15px 0px; }
+#upcomingEventsList .upcomingEvent {margin-bottom:10px;}
+#upcomingEventsList .upcomingEventDate {background-image:url('/media/twu/style-assets/images/bg_eventDate.png');float:left;height:41px;width:41px;padding:6px 0px 5px;text-transform: uppercase;line-height:1.4em;text-align:center;float:left;background-repeat:no-repeat;}
+#upcomingEventsList .upcomingEventTitle {min-height:52px;margin-left:51px;font-size:0.9em;}
+#upcomingEventsList #upcomingEventsListSpacer {height:1px;background-color:#ccc;}
+#upcomingEventsList #upcomingEventsListAllEvents {height:15px;padding:15px;background-color:#ffffff;}
+#upcomingEventsList #upcomingEventsListAllEvents img {float:right;}
+
+/* Campus Buzz */
+
+#campusBuzzCT { border-top:1px solid #ccc;border-bottom:1px solid #ccc }
+#campusBuzzCT .buzzItem { padding:20px 10px; }
+#campusBuzzCT .buzzItem .submitter { color:#ccc;padding-bottom:.5em; }
+#campusBuzzCT .buzzItem .post { }
+#campusBuzzCT .buzzItem .link { padding-top:.5em; }
+
+/* Content Block */
+
+.contentBlock { background-image: url('/media/twu/style-assets/images/contentBlockBackground.png'); background-repeat: repeat-x; padding: 21px 20px 30px 20px; position: relative; top: 0px; left: 0px; }
+.contentBlock .contentBlockHeader { font-size: 1.3em; border-bottom: 1px solid #666666; padding-bottom: 5px; margin-bottom: 1em; }
+.contentBlock .contentBlockSeeMore { width: 85px; height: 15px; position: absolute; bottom: 15px; right: 15px; background-image: url('../images/smarter/viewMore.png'); background-repeat: no-repeat; }
+
+/* Cross Expander */
+
+.divExpanderCt { margin:1em 0px; }
+.divExpanderCt .divExpanderTitle { background-image:url('/media/twu/style-assets/images/icon_open.png');background-repeat:no-repeat;background-position-x:5px;background-position-y:center;padding:5px 35px;font-size:1.3em;font-weight:bold;background-color:#c4e4f7;cursor:pointer; }
+.divExpanderCt .divExpanderTitle.open { background-image:url('/media/twu/style-assets/images/icon_close.png'); }
+
+/* Featured Paragraph */
+
+.featuredParagraph .paragraphTitle { background-image: url('/media/twu/style-assets/images/featureSelectTitle.png'); background-repeat: no-repeat; padding-left: 10px; padding-top: 2px; padding-bottom: 2px; color: #4d4d4d; font-size: 1.4em; font-weight: bold; }
+.featuredParagraph .paragraphContent { padding-left: 10px }
+
+/* Promoted Paragraph */
+
+.logoTitle { padding-top: 1px; font-size: 1.5em; font-weight: bold; color: #666; padding-left: 39px; background-image: url('/media/twu/style-assets/images/logoTitle.png'); background-repeat: no-repeat; background-position-y: 2px; }
+
+/* Info Box */
+
+.infoBox { width: 100%; margin-bottom: 20px; }
+.infoBox .infoBoxHeader { min-height: 26px; font-size: 1.1em; font-weight: bold; color: #666666; background-image: url('/media/twu/style-assets/images/infoBoxHeader.png'); padding-top: 12px; padding-left: 15px; padding-right: 15px; }
+.infoBox .infoBoxText { border-left: 1px solid #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; background-image: url('/media/twu/style-assets/images/infoBoxText.png'); background-repeat: no-repeat; background-position: left bottom; position: relative; top: 0px; left: 0px; padding-left: 15px; padding-right: 15px; padding-top: 10px; padding-bottom: 15px; color: #666666; }
+.infoBox .infoBoxText .infoBoxArrow { position: absolute; bottom: 10px; right: 10px; background-image: url('/media/twu/style-assets/images/infoBoxGreyArrow.png'); height: 15px; width: 11px; }
+.infoBox .infoBoxText a { color: #666666; text-decoration: none; }
+.infoBox .infoBoxText a:hover { color: #004b8d; text-decoration: none; }
+.infoBox .infoBoxText:hover a { color: #004b8d; }
+.infoBox .infoBoxText:hover .infoBoxArrow { background-image: url('/media/twu/style-assets/images/infoBoxBlueArrow.png'); }
+
+/* Simple Box - Right Side */
+
+.simpleBox { padding:15px;border:1px solid #ccc; }
+
+/* Featured Video */
+
+.featuredVideo { margin-bottom: 20px; width: 100%; margin-left: auto; margin-right: auto; position: relative; top: 0px; left: 0px; }
+.featuredVideo img { width: 100%; }
+.featuredVideo iframe { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.featuredVideo object { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.featuredVideo embed { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.featuredVideo video { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+
+/* Featured Content Block */
+
+.featuredContentBlockHeader { background-image: url('/media/twu/style-assets/images/featuredContentBlockHeader.png'); background-repeat: no-repeat; border-top: 1px solid #CCC; border-right: 1px solid #CCC; border-left: 1px solid #CCC; font-size: 1em; padding-top: 16px; padding-bottom: 6px; padding-left: 15px; padding-right: 15px; font-weight: bold; }
+.featuredContentBlock { background-image: url('/media/twu/style-assets/images/featuredContentBlockBackground.png'); border-left: 1px solid #CCC; border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; background-repeat: no-repeat; padding: 21px 20px 30px 20px; position: relative; top: 0px; left: 0px; }
+
+/* Counselor Rotator - Right Column */
+
+#counselorRotatorContainer { width: 222px; background-repeat: no-repeat; background-position: 0px 43px; border: 1px solid #CCC; margin-bottom: 20px; padding-bottom: 20px; }
+#counselorRotatorContainer #counselorRotatorHeader { background-image: url('/media/twu/style-assets/images/infoBoxHeaderBlueBorder.png'); background-repeat: no-repeat; height: 34px; font-size: 1.1em; color: #666666; padding-top: 10px; padding-left: 15px; margin-bottom: 20px; }
+#counselorRotatorContainer #counselorRotator { width: 117px; margin-left: 35px; }
+#counselorRotatorContainer #counselorList{ padding-left: 10px; width: 206px; min-height: 75px; }
+#counselorRotatorContainer .counselorSpacer { background-color: #cccccc; height: 1px; margin-left: 8px; width: 206px; display: block; margin-top: 10px; margin-bottom: 10px; }
+#counselorRotatorContainer #counselorPhoto { width: 154px; height: 165px; margin-bottom: 5px; }
+#counselorRotatorContainer #counselorPhoto img { width: 154px; height: 165px; }
+#counselorRotatorContainer #counselorInfo { width: 154px; }
+#counselorRotatorContainer #counselorList .counselorListThumbnail { width: 75px; height: 75px; float: left; }
+#counselorRotatorContainer #counselorList .counselorListInfo { margin-left: 85px; font-size: .7em; }
+#counselorRotatorContainer a { color: inherit; text-decoration: none; }
+#counselorRotatorContainer strong { color: #666666; margin-bottom: 10px; }
+#counselorRotatorContainer #seeMoreCounselors { text-align: right; background-image: url('/media/twu/style-assets/images/yellowArrowBullet.png'); background-repeat: no-repeat; background-position: right center; padding-right: 15px; margin-top: 1em; margin-bottom: 1em; margin-right: 15px; cursor: pointer; }
+#counselorRotatorContainer #seeMoreCounselors:hover { color: #fed000; }
+#counselorRotatorContainer #findACounselor { width: 205px; margin-top: 20px; margin-left: 9px; height: 20px; background-image: url('/media/twu/style-assets/images/redesign/findCounselorGreyButton.png'); background-repeat: no-repeat; text-align: center; padding-top:3px; cursor: pointer; }
+#counselorRotatorContainer #findACounselor:hover { background-image: url('/media/twu/style-assets/images/redesign/findCounselorBlueButton.png'); color: #ffffff; }
+
+/* Select Row Container - Used on Counselor Callouts and Professor Callouts */
+
+.selectRowContainer { width: 100%; }
+.selectRowContainer .selectRow { width: 100%; min-height: 68px; position: relative; top: 0px; left: 0px; }
+.selectRowContainer .selectRow .selectRowImage { height: 75px; width: 75px; overflow: hidden; float: left; }
+.selectRowContainer .selectRow .selectRowImage img { width: 100%; height: 100%; }
+.selectRowContainer .selectRow .selectRowText { margin-left: 120px; }
+.selectRowContainer .selectRow .selectRowControls, .selectRowContainer .selectRow .professorCalloutEmailButton { position: absolute; top: 38px; right: 0px; width: 65px; }
+.selectRowContainer .selectRow .counselorContactButton { width: 100%; background-color: #f3f3f3; color: #333; cursor: pointer; text-align: center; padding: 3px 0px; font-size: .9em; }
+.selectRowContainer .selectRow .counselorContactButton:hover { background-color: #004b8d; color: #ffffff; }
+
+/* Blue Spacer */
+
+.blueSpacer { background-color: #002460; height: 1px; width: 100%; display: block; margin-top: 20px; margin-bottom: 20px; }
+
+/* Dashed Spacer */
+
+.dashedSpacer { height: .5em; margin-top: .5em; border-top: 1px dashed #ccc; width: 100%; clear: both; }
+
+/* Counselor Details */
+
+#counselorContainer { width: 100%; position: relative; top: 0px; left: 0px; }
+#counselorContainer #counselorPhoto { width: 100%; position: relative; top: 0px; left: 0px; }
+#counselorContainer #counselorPhoto img { width: 100% !important; height: auto !important; }
+#counselorContainer #counselorPhoto #counselorName { position: absolute; left: 0px; bottom: 80px; color: #ffffff; padding: 3px 5px; font-size: 1.1em; background-color: rgba(19,19,19,0.7); }
+#counselorContainer #counselorPhoto #hometown { position: absolute; left: 0px; bottom: 40px; background-color: rgba(19,19,19,0.7); font-size: 0.9em; color: #ffffff; padding: 8px 0px; width: 100%; text-indent: 5px; }
+#counselorContainer #counselorPhoto #hometown .label { color: #fed000; display: inline-block; }
+#counselorContainer #counselorPhoto #contact { position: absolute; left: 0px; bottom: 0px; background-color: #004b8d; color: #ffffff; font-size: 0.8em; width: 100%; max-height: 40px; overflow: hidden; }
+#counselorContainer #counselorPhoto #contact #email { margin: 7px; padding: 5px 20px 5px 35px; border-right: 1px solid #ffffff; float: left; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/email.png'); background-position: left center; background-repeat: no-repeat; }
+#counselorContainer #counselorPhoto #contact #email a { color: inherit; }
+#counselorContainer #counselorPhoto #contact #phone { margin: 7px; padding: 5px 20px 5px 35px; float: left; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/phone.png'); background-position: left center; background-repeat: no-repeat; }
+#counselorContainer #counselorPhoto #contact #phone a { color: #ffffff !important; }
+#counselorContainer #counselorPhoto #contact #facebook { background-color: #ffffff; width: 60px; height: 40px; background-image: url('https://txwes.edu/media/twu/style-assets/images/responsive/facebook_hover.png'); float: right; margin-right: 20px; background-size: 30px; background-repeat: no-repeat; background-position: center; }
+#counselorContainer #counselorInfo { width: 100%; overflow: auto; }
+#counselorContainer #counselorInfo .otherInfo { float: right; padding: 10px 20px; background-color: #f3f3f3; width: 150px; }
+#counselorContainer #counselorInfo .contactInfo { float: left; padding: 10px; }
+#counselorContainer #counselorInfo .emailForm { clear: both; }
+#counselorContainer #emailForm { display: none; margin-bottom: 20px; }
+#counselorContainer #counselorInfo #emailForm.emailForm { display: block; }
+#counselorContainer #emailForm .header { font-size: 1.1em; padding-top: 5px; }
+#counselorContainer #counselorBio { width: 100%; }
+#counselorContainer #counselorBio .question { padding: 20px 0px 20px 50px; border-top: 2px solid #f3f3f3; position: relative; top: 0px; left: 0px; }
+#counselorContainer #counselorBio .question .background { height: 16px; width: 16px; background-color: #fed000; position: absolute; top: 20px; left: 0px; }
+#counselorContainer #counselorBio .question .title { font-size: 1.5em; margin-bottom: 20px; }
+#counselorContainer #upcomingEventsList.counselor { position: absolute; top: 140px; right: -270px; width: 224px; background-color: #ffffff; }
+
+/* Professor Details */
+
+#professorContainer {}
+#professorHeadContainer { padding: 10px; border: 1px solid #cccccc; }
+#professorHeadContainer .professorName { font-size: 2em; }
+#professorHeadContainer .professorTitle { color: #000000; font-size: 1.2em; }
+#professorHeadContainer .professorVideo { margin-top: 0.5em; position: relative; width: 100%; }
+#professorHeadContainer .professorVideo img { width: 100%; }
+#professorHeadContainer .professorVideo #professorVideoiframe { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100% !important; height: 100% !important; }
+#professorHeadContainer .professorVideo iframe { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100% !important; height: 100% !important; }
+#professorHeadContainer #professorNavigation { overflow: auto; width: 100%; }
+#professorHeadContainer #professorNavigation .professorNavigationIntro { padding-top: 5px; font-size: 0.85em; border-top: 1px solid #cccccc; float: left; text-align: right; width: 50%; }
+#professorHeadContainer #professorNavigation img { width:75px; height:46px; float: right; margin-left: 20px; }
+
+#professorContactContainer { padding: 10px 0px; border-top-color: #fed000; border-bottom-color: #cccccc; border-top-width: 4px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; }
+#professorContactContainer .professorContactButton { width: 218px; height: 23px; color: #ffffff; padding-top: 6px; padding-left: 10px; font-size: 1em; font-weight: bold; float: left; cursor: pointer; background-image: url('/media/twu/style-assets/images/contactFormButton.png'); }
+#professorContactContainer .professorContactAlternate { font-size: 0.9em; margin-top: 15px; margin-left: 245px; }
+#professorContactContainer .professorEmailForm { padding: 15px; border: 1px solid #cccccc; left: 0px; top: 0px; font-size: 0.9em; margin-top: 0.5em; position: relative; }
+
+#professorQAHeader { padding: 5px; font-size: 1.5em; border-top: 4px solid #fed000; }
+.professorQuestionContainer { padding-top: 20px; padding-bottom: 20px; border-top-color: #cccccc; border-top-width: 1px; border-top-style: solid; }
+.professorQuestionContainer .professorQuestion { left: 0px; top: 0px; padding-left: 30px; font-size: 1.7em; position: relative; }
+.professorQuestionContainer .professorDot { left: 0px; top: 4px; width: 16px; height: 16px; position: absolute; background-color: #fed000; }
+.professorQuestionContainer .professorAnswer { padding-left: 30px; }
+
+/* Visit Campus Temporary */
+
+.featureSelectTitle { background-image: url('<t4 type="media" id="1621" formatter="path/*"/>'); background-repeat: no-repeat; margin-bottom: 1em; padding-left: 10px; padding-top: 2px; padding-bottom: 2px; color: #4d4d4d; font-size: 1.4em; font-weight: bold; }
+.featureSelect { background-image: url('<t4 type="media" id="1690" formatter="path/*"/>'); background-repeat: no-repeat; padding-top: 16px; position: relative; top: 0px; bottom: 0px; }
+.featureSelect .featureSelectHeader { height: 22px; padding-top: 3px; padding-left: 32px; padding-bottom: 5px; margin-left: 5px; background-image: url('<t4 type="media" id="1691" formatter="path/*"/>'); background-repeat: no-repeat; font-size: 1.25em; }
+.featureSelect .featureSelectText { padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 35px; background-color: #f6f6f6; }
+.featureSelect .featureSelectViewMore { width: 110px; height: 25px; position: absolute; bottom: 15px; right: 15px; background-image: url('../images/smarter/viewMore.png'); }
+.featureSelect .featureSelectButton { width: 93px; height: 21px; padding-top: 3px; float: right; text-align: center; background-image: url('<t4 type="media" id="1692" formatter="path/*"/>'); background-repeat: no-repeat; text-decoration: none; font-size: 0.8em; }
+
+/* Net Price Calculator */
+
+.netPriceButtonleft { background-image: url('<t4 type="media" id="10745" formatter="path/*"/>'); width: 173px; height: 28px; text-align: center; font-size: 1.1em; color: #666; float: left; padding-top: 7px; }
+.netPriceButtonleft:hover { background-image: url('<t4 type="media" id="10744" formatter="path/*"/>'); color: #ffffff; }
+.netPriceButtonRight { background-image: url('<t4 type="media" id="10745" formatter="path/*"/>'); width: 173px; height: 28px; text-align: center; font-size: 1.1em; color: #666; float: right; padding-top: 7px; }
+.netPriceButtonRight:hover { background-image: url('<t4 type="media" id="10744" formatter="path/*"/>'); color: #ffffff; }
+
+/* divOverlay */
+
+.overlay { display: none; width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-image: url('../images/smarter/leftColBG.png'); color: white; z-index: 9999; }
+.overlay #overlayContainer { width: 700px; padding: 4px; border: 1px solid #fed000; height: 525px; background-color: #001230; position: absolute; top: 50%; left: 50%; margin-left: -352px; margin-top: -277px; }
+.overlay #overlayContent { width: 700px; height: 475px; overflow-y: auto; overflow-x: hidden; }
+.overlay #overlayContent a { color: #fed000; }
+.overlay #overlayInfo { position: absolute; bottom: 0px; left: 0px; height: 40px; width: 590px; padding: 5px; }
+.overlay #overlayInfo a { color: #fed000; }
+.overlay #overlayClose { position: absolute; bottom: 0px; right: 0px; width: 100px; height: 28px; text-align: right; padding: 5px; color: #fed000; cursor: pointer; }
+
+/* Buttons */
+
+.button { padding: 7px 10px 7px 50px; background-color: #fed000; color: #000000; font-size: 1.1em; background-repeat: no-repeat; background-position: left center; display: inline-block; clear: both; cursor: pointer; margin-bottom: 10px; }
+.button a { color: #000000; }
+.button a:visited { color: #000000; }
+.button.pencil { background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/pencil.png'); }
+.button.apply { background-image: url('/media/twu/style-assets/images/buttons/apply.png'); }
+.button.chat { background-image: url('/media/twu/style-assets/images/buttons/conversation.png'); }
+.button.info { background-image: url('/media/twu/style-assets/images/buttons/info.png'); }
+.button.people { background-image: url('/media/twu/style-assets/images/buttons/people.png'); }
+.button.talk { background-image: url('/media/twu/style-assets/images/buttons/provost-icon.png'); }
+.button.medal { background-image: url('/media/twu/style-assets/images/buttons/gift.png'); }
+.button.video { background-image: url('/media/twu/style-assets/images/buttons/video.png'); }
+.button.go { background-image: url('/media/twu/style-assets/images/buttons/arrow_white.png'); padding: 7px 25px 7px 10px; background-position: right center; min-width: 200px; }
+.button.calendar { background-image: url('/media/twu/style-assets/images/buttons/calendar.png'); }
+.button.calendar.grey { background-image: url('/media/twu/style-assets/images/buttons/calendar-grey.png'); }
+.button.idea { background-image: url('/media/twu/style-assets/images/buttons/my_idea_box.png'); }
+.button.close { background-color: #ffffff; background-position: center center; width: 30px; height: 30px; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/close.png'); padding: 0px; }
+.button.close:after { content: none; display: none; clear: none; }
+.button.email { background-image: url('/media/twu/style-assets/images/buttons/email.png'); }
+.button.blackboard { background-image: url('/media/twu/style-assets/images/buttons/blackboard_icon_button-31.png'); }
+.button.download { background-image: url('/media/twu/style-assets/images/buttons/download_button.png'); }
+.button.none { padding: 7px 10px; }
+.button.grey { background-color: #cccccc; }
+
+/* Bordered Header */
+
+.borderedHeader { padding: 10px; font-size: 1.5em; border-top-color: #fed000; border-top-width: 4px; border-top-style: solid; border-bottom:1px solid #ccc; margin-bottom:0.5em; }
+
+/* CSS Table Layout */
+
+.table { display: table; border-bottom: 1px dashed #ccc; width: 100%; }
+.table.evencells { table-layout: fixed; }
+.table .row { display: table-row; width: 100%; }
+.table .row.header { font-weight: bold; }
+.table .row:hover { background-color: #f3f3f3; }
+.table.nohover .row:hover { background-color: transparent; }
+.table .row .cell { display: table-cell; padding: 10px 5px; border-top: 1px dashed #ccc; }
+
+/* CSS List Table Layout */
+
+.table.list { border-bottom: none; border-top: 1px solid #ccc; border-left: 1px solid #ccc; }
+.table.list .row:hover { background-color: transparent; }
+.table.list .row .cell { border-top: none; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background-color: #f3f3f3; width: 50%; padding: 10px 15px; }
+.table.list .row .cell.empty {  }
+
+/* CSS Data Table */
+
+.table.data { border: 1px solid #ccc; }
+.table.data .row { }
+.table.data .row .cell { border: none; border-bottom: 1px solid #ccc; padding: 5px 10px 15px; vertical-align: top; }
+.table.data .row .cell:first-child { border-right: 1px solid #ccc; background-color: #f3f3f3; width: 215px; }
+.table.data .row:hover { background-color: transparent; }
+.table.data .row:hover .cell:first-child { background-color: #d5e5ef; }
+.table.data.nohover .row:hover .cell:first-child { background-color: transparent; }
+.table.data .row:last-child .cell { border-bottom: none; }
+
+/* AC-Form -- Legacy */
+
+.AC-Form { padding: 5px; }
+.AC-Form .ac-header { font-size: 1.1em; color: #004b8d; border-bottom: 1px solid #fed000; padding-bottom: 10px; margin-bottom: 20px; }
+.AC-Form .ac-header h5 { font-size: 1em; margin: 0px; padding: 0px; }
+.AC-Form .ac-setcol1 { width: 100%; margin-bottom: 20px; }
+.AC-Form .ac-setcol1 .ac-field { overflow: auto; }
+.AC-Form .ac-setcol1 .ac-field .ac-label { width: 30%; margin-right: 10px; float: left; text-align: right; }
+.AC-Form + div.controls, .AC-Form .controls { text-align: center; }
+.AC-Form + div.controls input, .AC-Form .controls input { border: none; background-color: #cccccc; padding: 5px 10px; }
+.AC-Form + div.controls input:hover, .AC-Form .controls input:hover { background-color: #004b8d; color: #ffffff; }
+.AC-Form .ac-spacer { display: none; }
+
+/* Forms */
+
+form { overflow: auto; }
+#contentCT.threeCol form { max-width: 462px; }
+form .field { margin-bottom: 20px; }
+form .field label { display: block; margin-bottom: 10px; }
+form .field.required label::after { content: ' *'; color: #ff0000; }
+form .field input { display: block; width: 100%; max-width: 380px; margin-bottom: 10px; box-sizing: border-box; }
+form .field input[type="text"] { padding: 5px; }
+form .field input[type="email"] { padding: 5px; }
+form .field textarea { display: block; width: 100%; max-width: 380px; min-height: 64px; padding: 5px; box-sizing: border-box; margin-bottom: 10px; }
+form .field input[type="submit"] { background-color: #fed000; padding: 10px 15px; font-size: 1.1em; color: #000000; width: auto; display: inline-block; cursor: pointer; border: none; margin-top: 15px; }
+form .field input[type="reset"] { background-color: #cccccc; padding: 10px 15px; font-size: 1.1em; color: #000000; width: auto; display: inline-block; cursor: pointer; border: none; margin-top: 15px; }
+form .field select { width: 100%; margin-bottom: 10px; display: block; max-width: 380px; padding: 5px; }
+form .field .group { }
+form .field .group .option { margin-bottom: 10px; }
+form .field .group .option input { margin-bottom: 0px; display: inline-block; width: auto; }
+form .instructions { margin-bottom: 10px; }
+
+/* Who Can Help */
+
+.whoCanHelpCT {}
+.whoCanHelpCT .whoCanHelp.title { padding: 7px 5px 7px 48px; background-color: #00428d; color: #ffffff; background-repeat: no-repeat; background-position: left; background-size: 35px; }
+.whoCanHelpCT .whoCanHelp.title.pencil { background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/pencil.png'); }
+.whoCanHelpCT .whoCanHelp.title.apply { background-image: url('/media/twu/style-assets/images/buttons/apply.png'); }
+.whoCanHelpCT .whoCanHelp.title.chat { background-image: url('/media/twu/style-assets/images/buttons/conversation.png'); }
+.whoCanHelpCT .whoCanHelp.title.info { background-image: url('/media/twu/style-assets/images/buttons/info.png'); }
+.whoCanHelpCT .whoCanHelp.title.people { background-image: url('/media/twu/style-assets/images/buttons/people.png'); }
+.whoCanHelpCT .whoCanHelp.title.medal { background-image: url('/media/twu/style-assets/images/buttons/gift.png'); }
+.whoCanHelpCT .whoCanHelp.title.video { background-image: url('/media/twu/style-assets/images/buttons/video.png'); }
+.whoCanHelpCT .whoCanHelp.title.calendar { background-image: url('/media/twu/style-assets/images/buttons/calendar.png'); }
+.whoCanHelpCT .whoCanHelp.title.email { background-image: url('/media/twu/style-assets/images/buttons/email.png'); }
+.whoCanHelpCT .whoCanHelp.title.checkoff { background-image: url('/media/twu/style-assets/images/buttons/accreditation icon.png'); background-size: 41px 34px; }
+.whoCanHelpCT .whoCanHelp.title.conversation { background-image: url('/media/twu/style-assets/images/buttons/provost-icon.png'); }
+.whoCanHelpCT .whoCanHelp.title.idea { background-image: url('/media/twu/style-assets/images/buttons/my_idea_box.png'); }
+.whoCanHelpCT .whoCanHelp.title a { color: inherit; }
+.whoCanHelpCT .whoCanHelp.content { padding: 15px; }
+.whoCanHelpCT .whoCanHelp.image { width: 100%; }
+.whoCanHelpCT .whoCanHelp.image img { width: 100% !important; max-width: 100%; height: auto !important; }
+.whoCanHelpCT .whoCanHelp.text { padding: 10px 0px; margin-bottom: 10px; }
+.whoCanHelpCT .whoCanHelp.text a { color: inherit; }
+.whoCanHelpCT .button { width: 100%; padding-left: 0px; padding-right: 0px; text-align: center; }
+
+/* Left Column Rich Text Content */
+
+.lcrtCT {}
+.lcrtCT .lcrt.title { padding: 7px 5px 7px 48px; background-color: #00428d; color: #ffffff; background-repeat: no-repeat; background-position: left; background-size: 35px; }
+.lcrtCT .lcrt.title.pencil { background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/pencil.png'); }
+.lcrtCT .lcrt.title.apply { background-image: url('/media/twu/style-assets/images/buttons/apply.png'); }
+.lcrtCT .lcrt.title.chat { background-image: url('/media/twu/style-assets/images/buttons/conversation.png'); }
+.lcrtCT .lcrt.title.info { background-image: url('/media/twu/style-assets/images/buttons/info.png'); }
+.lcrtCT .lcrt.title.people { background-image: url('/media/twu/style-assets/images/buttons/people.png'); }
+.lcrtCT .lcrt.title.medal { background-image: url('/media/twu/style-assets/images/buttons/gift.png'); }
+.lcrtCT .lcrt.title.video { background-image: url('/media/twu/style-assets/images/buttons/video.png'); }
+.lcrtCT .lcrt.title.calendar { background-image: url('/media/twu/style-assets/images/buttons/calendar.png'); }
+.lcrtCT .lcrt.title.email { background-image: url('/media/twu/style-assets/images/buttons/email.png'); }
+.lcrtCT .lcrt.title.checkoff { background-image: url('/media/twu/style-assets/images/buttons/accreditation icon.png'); background-size: 41px 34px; }
+.lcrtCT .lcrt.title.conversation { background-image: url('/media/twu/style-assets/images/buttons/provost-icon.png'); }
+.lcrtCT .lcrt.title.idea { background-image: url('/media/twu/style-assets/images/buttons/my_idea_box.png'); }
+.lcrtCT .lcrt.title a { color: inherit; }
+.lcrtCT .lcrt.content { padding: 0px 15px; }
+.lcrtCT .lcrt.image { width: 100%; }
+.lcrtCT .lcrt.image img { width: 100% !important; max-width: 100%; height: auto !important; }
+.lcrtCT .lcrt.text { padding: 10px 0px 12px; margin-bottom: 10px; }
+.lcrtCT .lcrt.text a {  }
+.lcrtCT .lcrt.text ul.nav { list-style-type: none; margin: 0px; padding: 0px; }
+.lcrtCT .lcrt.text ul.nav li { padding: 4px 0px; }
+.lcrtCT .button { width: 100%; padding-left: 0px; padding-right: 0px; text-align: center; }
+
+/* General Section Content */
+
+.sectionContent { padding: 12px 0px 0px; margin: 0px; }
+.sectionContent a { color: inherit; }
+.sectionContent img { margin-left: 5px; position: relative; top: 6px; }
+
+/* CTA Options - Grey boxes with icons for quick navigation */
+
+.ctaOptionsCT { width: 98%; width: calc(100% - 2px); overflow: auto; border: 1px solid #d3d3d3; background-color: #f4f4f4; display: table; }
+.ctaOptionsCT .ctaOptions { display: table-row; }
+.ctaOptionsCT .ctaOption { width: 33%; height: 56px; border-right: 1px solid #d3d3d3; position: relative; top: 0px; left: 0px; background-position: 12px center; padding: 4px 5px 4px 60px; cursor: pointer; display: table-cell; background-repeat: no-repeat; vertical-align: middle; text-decoration: none; color: inherit; background-size: 42px; }
+.ctaOptionsCT .ctaOption:last-child { border: none; }
+.ctaOptionsCT .ctaOption:hover { background-color: #e5e5e5; }
+.ctaOptionsCT .ctaOption .optionArrow, .ctaOptionsCT .ctaOption .arrow { display: none; position: absolute; right: 18px; top: 50%; margin-top: -10px; height: 19px; width: 13px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/yellow-arrow.png'); }
+	
+.ctaOptionsCT .ctaOption.academic { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/cta_major.png'); }
+.ctaOptionsCT .ctaOption.dining { background-image:url('/media/twu/style-assets/images/buttons/cta_dining.png'); }
+.ctaOptionsCT .ctaOption.graduate { background-image:url('/media/twu/style-assets/images/buttons/cta_graduate.png'); background-size: 55px; padding-left: 85px; }
+.ctaOptionsCT .ctaOption.housing { background-image:url('/media/twu/style-assets/images/buttons/cta_housing.png'); }
+.ctaOptionsCT .ctaOption.location { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/cta_campus.png'); }
+.ctaOptionsCT .ctaOption.money { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/cta_cost.png'); }
+.ctaOptionsCT .ctaOption.undergraduate { background-image:url('/media/twu/style-assets/images/buttons/cta_undergraduate.png'); background-size: 55px; padding-left: 85px; }
+
+/* CTA Options - President's Site */
+
+.ctaOptionsCT.four .ctaOption { width: 25%; }
+.ctaOptionsCT.president .ctaOption { height: 50px; padding: 77px 0px 0px 0px; background-position: center 10px; font-size: 0.9em; background-size: 61px; font-size: 0.9em; text-align: center; }
+.ctaOptionsCT.president .ctaOption:hover { background-color: #fed000; border-color: #fed000; }
+.ctaOptionsCT .ctaOption.aboutPresident { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/about_the_president_yellow.png'); }
+.ctaOptionsCT .ctaOption.forumsIdeas { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/forums_and_ideas_yellow.png'); }
+.ctaOptionsCT .ctaOption.vision { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/2020_vision_yellow.png'); }
+.ctaOptionsCT .ctaOption.ourStaff { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/our_staff_yellow.png'); }
+
+.ctaOptionsCT.five .ctaOption { width: 20%; }
+.ctaOptionsCT.vision .ctaOption { height: 50px; padding: 77px 10px 0px 10px; background-position: center 10px; font-size: 0.9em; background-size: 61px; font-size: 0.9em; text-align: center; position: relative; top: 0px; left: 0px; }
+#contentCT.threeCol .ctaOptionsCT.vision .ctaOption { background-size: 31px; padding-top: 35px; font-size: 0.8em; }
+.ctaOptionsCT.vision .ctaOption.current { background-color: #e5e5e5; }
+.ctaOptionsCT.vision .ctaOption.academicDistinction { background-image:url('/media/twu/content-assets/images/university-information/office-of-the-president/academic_blue.png'); }
+.ctaOptionsCT.vision .ctaOption.studentDevelopment { background-image:url('/media/twu/content-assets/images/university-information/office-of-the-president/student_development_blue.png'); }
+.ctaOptionsCT.vision .ctaOption.campusEnhancement { background-image:url('/media/twu/content-assets/images/university-information/office-of-the-president/environment_blue.png'); }
+.ctaOptionsCT.vision .ctaOption.financialVitality { background-image:url('/media/twu/content-assets/images/university-information/office-of-the-president/financial_blue.png'); }
+.ctaOptionsCT.vision .ctaOption.marketingBranding { background-image:url('/media/twu/content-assets/images/university-information/office-of-the-president/brand_blue.png'); }
+.ctaOptionsCT.vision .ctaOption .hoverInfo { position: absolute; top: 100%; left: -1px; background-color: #ffffff; border: 1px solid #cccccc; padding: 10px 10px 25px; display: none; width: 240px; text-align: left; z-index: 99; }
+.ctaOptionsCT.vision .ctaOption .hoverInfo .learnMore { width: 70px; height: 15px; background-image: url('/media/twu/style-assets/images/buttons/see_goal.png'); position: absolute; bottom: 10px; right: 10px; }
+.ctaOptionsCT.vision .ctaOption:last-child .hoverInfo { left: auto; right: -1px; }
+.ctaOptionsCT.vision .ctaOption:nth-child(4) .hoverInfo { left: auto; right: -1px; }
+.ctaOptionsCT.vision .ctaOption:hover .hoverInfo { display: block; }
+
+/* Right Column Mobile Content */
+
+.rcMobile-d, .desktop-only { }
+.rcMobile-m, .mobile-only { display: none; }
+
+/* Hub Page Section News */
+
+#newsList #newsListHeader { background-image:url('<t4 type="media" id="14854" formatter="path/*"/>'); background-repeat:no-repeat; background-position:10px 6px; background-color:#c4e4f7; padding:5px 35px; font-size:1.3em; font-weight:bold; }
+#newsList .newsStory { overflow:auto; border-bottom:1px dashed #ccc; padding:15px 0px;}
+#newsList .newsStory:last-of-type { border-bottom:none; }
+#newsList .newsStory img { display:none; float:left; width:150px; /*height:104px;*/ margin-right:20px; }
+#newsList .newsStory .releaseDate { font-size:0.9em; color:#ccc; margin-bottom:5px; overflow:auto; }
+#newsList .newsStory .title { font-size:1.2em; overflow:auto; }
+#newsList .newsStory .title a { color:inherit; }
+#newsList .newsStory .title a:hover { color:#004b8d; }
+#newsList .newsStory .previewText { display:none; overflow:auto; }
+#newsList .newsStory .previewText a { color:inherit; }
+#newsList .newsStory:nth-of-type(2) img { display:block; }
+#newsList .newsStory:nth-of-type(2) .releaseDate { font-size:1em; color:inherit; margin-bottom:10px; }
+#newsList .newsStory:nth-of-type(2) .title { font-size:1.3em; font-weight:bold; color:black; margin-bottom:10px; }
+#newsList .newsStory:nth-of-type(2) .previewText { display:block; }
+#newsList .newsStory:nth-of-type(3) img { display:block; }
+#newsList .newsStory:nth-of-type(3) .releaseDate { font-size:1em; color:inherit; margin-bottom:10px; }
+#newsList .newsStory:nth-of-type(3) .title { font-size:1.3em; font-weight:bold; color:black; margin-bottom:10px; }
+#newsList .newsStory:nth-of-type(3) .previewText { display:block; }
+#newsList .newsStory:nth-of-type(4) img { display:block; }
+#newsList .newsStory:nth-of-type(4) .releaseDate { font-size:1em; color:inherit; margin-bottom:10px; }
+#newsList .newsStory:nth-of-type(4) .title { font-size:1.3em; font-weight:bold; color:black; margin-bottom:10px; }
+#newsList .newsStory:nth-of-type(4) .previewText { display:block; }
+
+/* Captioned Video */
+
+.captionedVideo { background-color: #f3f3f3; overflow: auto; margin-bottom: 1.5em; }
+.captionedVideo .video { width: 100%; margin-left: auto; margin-right: auto; position: relative; top: 0px; left: 0px; }
+.captionedVideo .video img { width: 100%; }
+.captionedVideo .video iframe { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.captionedVideo .video object { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.captionedVideo .video embed { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.captionedVideo .video video { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.captionedVideo .caption { padding: 20px; font-size: 0.9em; }
+.captionedVideo.cbottom .caption { text-align: center; }
+.captionedVideo.cleft .video { width: 60%; float: right; }
+.captionedVideo.cleft .caption { width: 32%; padding: 4%; float: left; }
+.captionedVideo.cright .video { width: 60%; float: left; }
+.captionedVideo.cright .caption { width: 32%; padding: 4%; float: right; }
+.captionedVideo.left { width: 40%; float: left; }
+.captionedVideo.right { width: 40%; float: right; }
+.captionedVideo.left .video, .captionedVideo.right .video { width: 100%; float: none; }
+.captionedVideo.left .caption, .captionedVideo.right .caption { width: auto; float: none; text-align: center; }
+
+
+/* Captioned Image */
+
+.captionedImage { background-color: #f3f3f3; overflow: auto; margin-bottom: 1.5em; }
+.captionedImage img { width: 100%; }
+.captionedImage .caption { padding: 20px; font-size: 0.9em; }
+.captionedImage.cbottom .caption { text-align: center; }
+.captionedImage.cleft img { width: 60%; float: right; }
+.captionedImage.cleft .caption { width: 32%; padding: 25% 4% 4% 4%; float: left; text-align: right; }
+.captionedImage.cright img { width: 60%; float: left; }
+.captionedImage.cright .caption { width: 32%; padding: 4%; float: right; }
+.captionedImage.left { width: 40%; float: left; }
+.captionedImage.right { width: 40%; float: right; }
+.captionedImage.left img, .captionedImage.right img { width: 100%; float: none; }
+.captionedImage.left .caption, .captionedImage.right .caption { width: auto; float: none; text-align: center; }
+
+/* Pull Quote */
+
+.pullquote { margin-bottom: 1.5em; }
+.pullquote .border-top { width: 40%; margin: 0px auto; background-color: #cccccc; height: 4px; display: none; }
+.pullquote .border-bottom { width: 40%; margin: 0px auto; background-color: #cccccc; height: 4px; display: none; }
+.pullquote.both .border-top, .pullquote.top .border-top { display: block; }
+.pullquote.both .border-bottom, .pullquote.bottom .border-bottom { display: block; }
+.pullquote .quote { font-size: 1.3em; color: #004b8d; line-height: 1.5em; padding: 35px 30px 20px; }
+.pullquote.both .border-top .quote, .pullquote.top .border-top .quote { padding-top: 20px; }
+.pullquote .attribution { font-size: .9em; padding: 0px 0px 20px; text-align: center; font-style: italic; }
+.pullquote.left { width: 40%; float: left; padding: 20px 0px; }
+.pullquote.right { width: 40%; float: right; padding: 20px 0px; }
+
+/* Signature Quote */
+.signatureQuoteCT.president { background-image:url('/media/twu/content-assets/images/university-information/office-of-the-president/president_and-signature_bg.png');background-repeat: no-repeat;background-position:right bottom;padding:0px;min-height:230px; }
+.signatureQuoteCT .signatureQuote { width: 60%; }
+
+/* Horizontal News List */
+
+.horizontalNewsList { overflow: auto; }
+.horizontalNewsList .header { background-image: url('/media/twu/style-assets/images/homepage/news.png'); background-repeat: no-repeat; background-position: left center; padding: 10px 0px 10px 100px; margin-bottom: 15px; }
+.horizontalNewsList .header .moreNews { background-image: url('/media/twu/style-assets/images/homepage/more-news.png'); width: 123px; height: 29px; }
+.horizontalNewsList .news-header { font-size: 1.5em; font-family: 'Oswald', Arial, Helvetica, sans-serif; border-top: 1px dashed #ccc; padding-top: 8px; text-transform: uppercase; }
+.horizontalNewsList .newsItem { width: 25%; float: left; margin-bottom: 15px; }
+#contentCT.threeCol .horizontalNewsList .newsItem { width: 33%; }
+.horizontalNewsList .newsItem .image, .horizontalNewsList .newsItem .title { width: 90%; margin: 0px auto; color: #333; }
+.horizontalNewsList .newsItem .image { min-height: 100px; background-image: url('/media/twu/style-assets/images/news-placeholder.png'); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; top: 0px; left: 0px; vertical-align: top; }
+.horizontalNewsList .newsItem .title a { color: inherit; }
+.horizontalNewsList .newsItem .image { position: relative; top: 0px; left: 0px; }
+.horizontalNewsList .newsItem .image img { display: block; vertical-align: top; }
+.horizontalNewsList .newsItem .image .videoIcon { position: absolute; bottom: 7px; right: 5px; }
+.horizontalNewsList .newsItem:nth-child(2) .image, .horizontalNewsList .newsItem:nth-child(2) .title { margin: 0px auto 0px 0px; }
+.horizontalNewsList .newsItem:nth-child(4n+1) .image, .horizontalNewsList .newsItem:nth-child(4n+1) .title { margin: 0px 0px 0px auto; }
+.horizontalNewsList .newsItem:nth-child(4n+2) .image, .horizontalNewsList .newsItem:nth-child(4n+2) .title { margin: 0px auto 0px 0px; }
+.horizontalNewsList .newsItem:nth-child(4n+2) { clear: both; }
+#contentCT.threeCol .horizontalNewsList .newsItem:nth-child(4n) .image, #contentCT.threeCol .horizontalNewsList .newsItem:nth-child(4n) .title { margin: 0px 0px 0px auto; }
+.horizontalNewsList .moreNews.white { clear: both; border: 1px solid #ccc; text-align: center; margin-top: 20px; background-color: #ffffff; }
+.horizontalNewsList .moreNews.white table { width: 125px; margin: 0px auto; }
+.horizontalNewsListControls { width: 100%; text-align: center; clear: both; margin-top: 15px; }
+#contentCT.newsEvents .horizontalNewsList .newsItem { width: 33%; }
+.horizontalNewsList .newsItem .category { width: 90%; margin: 8px auto 10px; font-size: 0.8em; font-family: 'Oswald'; text-transform: uppercase; }
+.horizontalNewsList .newsItem:nth-child(2) .category { margin: 8px auto 10px 0px; }
+.horizontalNewsList .newsItem:nth-child(4n+1) .category { margin: 8px 0px 10px auto; }
+.horizontalNewsList .newsItem:nth-child(4n+2) .category { margin: 8px auto 10px 0px; }
+#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .image, #contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .title { margin: 0px 0px 0px auto; }
+#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .category { margin: 8px 0px 10px auto; }
+
+/* Vertical News List */
+
+.verticalNewsList { }
+.verticalNewsList .news-header { font-size: 1.5em; font-family: 'Oswald', Arial, Helvetica, sans-serif; border-top: 1px dashed #ccc; padding-top: 8px; text-transform: uppercase; }
+.verticalNewsList .newsItem { overflow: auto; padding: 10px 0px; border-bottom: 1px dashed #ccc; }
+.verticalNewsList .newsItem:last-child { border: none; }
+.verticalNewsList .newsItem .image { float: left; width: 125px; margin-right: 15px; min-height: 80px; background-image: url('/media/twu/style-assets/images/news-placeholder.png'); background-repeat: no-repeat; background-position: center; background-size: contain; vertical-align: top; position: relative; top: 0px; left: 0px; }
+.verticalNewsList .newsItem .image img { display: block; vertical-align: top; }
+.verticalNewsList .newsItem .image .videoIcon { position: absolute; bottom: 0px; right: 0px; }
+.verticalNewsList .newsItem .category { text-transform: uppercase; font-family: 'Oswald'; font-size: 0.8em; margin-left: 140px; }
+.verticalNewsList .newsItem .title { color: #000; font-size: 1.1em; margin-left: 140px; }
+.verticalNewsList .newsItem .title a { color: inherit; }
+.verticalNewsList .newsItem .teaser { margin-top: 20px; margin-left: 140px; }
+.verticalNewsList .newsItem .teaser a { color: inherit; }
+.verticalNewsList .moreNews.white { clear: both; border: 1px solid #ccc; text-align: center; margin-top: 20px; background-color: #ffffff; }
+.verticalNewsList .moreNews.white table { width: 125px; margin: 0px auto; }
+.verticalNewsListControls { width: 100%; text-align: center; clear: both; margin-top: 15px; }
+
+.pagination { clear: both; margin-top: 20px; text-align: center; }
+.pagination * {  margin: 0px 2px; padding: 0px 2px; display: none; }
+.pagination .currentpage { color: #000000; background-color: #f3f3f3; border-radius: 50%; display: inline-block; padding: 0px 4px; }
+.pagination *:nth-child(1), .pagination *:nth-child(2), .pagination *:nth-child(3), .pagination *:nth-child(4) { display: inline-block; }
+.pagination *:nth-last-child(1), .pagination *:nth-last-child(2), .pagination *:nth-last-child(3), .pagination *:nth-last-child(4) { display: inline-block; }
+.pagination *:nth-child(4)::after { content: " ... "; }
+.pagination *:nth-last-child(4)::before { content: " ... "; }
+
+/* Video Rotator */
+
+.videoRotator { width: 100%; position: relative; top: 0px; left: 0px; background-color: #000000; padding-top: 41%; }
+.videoRotator .bar { position: absolute; bottom: 0px; left: 0px; width: 100%; height: 25px; background-color: rgba(25,25,25,0.5); z-index: 99; text-align: center; }
+.videoRotator .slide { width: 100%; position: absolute; top: 0px; left: 0px; cursor: pointer; }
+.videoRotator .slide .mobile-title { width: 100%; display: none; }
+.videoRotator .slide .background-mobile { width: 100%; display: none; }
+.videoRotator .slide .background { width: 100%; }
+.videoRotator .bar .dot { cursor: pointer; display: inline-block; height: 25px; width: 25px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorGreyDot.png'); background-repeat: no-repeat; background-position: center center; }
+.videoRotator .bar .dot.current { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorYellowDot.png'); }
+.vrVideoCT { position: absolute; z-index: 999; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageVideoBackground.png'); }
+.vrVideoCT .video { width: 432px; height: 270px; position: absolute; top: 50%; left: 50%; margin-top: -135px; margin-left: -216px; }
+.vrVideoCT .video img { width: 100%; }
+.vrVideoCT .video iframe { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+
+/* News Rotator */
+
+.news-rotator { width: 100%; border-bottom: 1px dashed #ccc; position: relative; top: 0px; left: 0px; padding-bottom: 35px; margin-bottom: 20px; }
+.news-rotator .rotator-item { position: absolute; top: 0px; left: 0px; }
+.news-rotator .rotator-item .rotator-photo { float: left; width: 48%; }
+.news-rotator .rotator-item .rotator-photo img { width: 100%; }
+.news-rotator .rotator-item .rotator-category { text-transform: uppercase; font-family: 'Oswald'; font-size: 0.7em; margin-bottom: 8px; color: #004b8d; }
+.news-rotator .rotator-item .rotator-title { float: right; width: 48%; clear: right; font-size: 1.3em; margin: 0px 0px 8px; color: #000000; }
+.news-rotator .rotator-item .rotator-title a { color: inherit; }
+.news-rotator .rotator-item .rotator-teaser { float: right; width: 48%; clear: right; margin: 12px 0px; }
+.news-rotator .rotator-item .rotator-teaser a { color: inherit; }
+.news-rotator .rotator-item .rotator-more { float: right; width: 48%; clear: right; }
+.news-rotator .rotator-controls { height: 25px; width: 100%; text-align: center; clear: both; position: absolute; bottom: 0px; left: 0px; }
+.news-rotator .rotator-controls .rotator-bullet { cursor: pointer; display: inline-block; height: 25px; width: 25px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorGreyDot.png'); background-repeat: no-repeat; background-position: center center; }
+.news-rotator .rotator-controls .rotator-bullet.current { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorYellowDot.png'); }
+.news-rotator .news-rotator-left { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; left: 0px; }
+.news-rotator .news-rotator-right { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; right: 0px; }
+
+/* Horizontal Event List */
+
+.horizontalEventList { overflow: auto; margin: 15px 0px; }
+.horizontalEventList .event { width: 25%; border-right: 1px solid #cccccc; float: left; }
+.horizontalEventList .event .date { text-transform: uppercase; line-height:1.4em; margin: 0px 15% 10px; }
+.horizontalEventList .event .date .day { font-size: 1.2em; }
+.horizontalEventList .event .title { width: 70%; margin: 0px auto; font-size: 0.9em; }
+.horizontalEventList .event:first-child .date, .horizontalEventList .event:first-child .title { margin-left: 0px;}
+.horizontalEventList .event:first-child { width: 22%; }
+.horizontalEventList .event:last-child { border: none; }
+
+/* News Feature Story */
+
+.featureStory { margin: 1em 0px; overflow: auto; }
+.featureStory .date { font-size: 0.9em; color: #cccccc; }
+.featureStory .title { font-size: 1.2em; color: #000000; margin: 5px 0px; }
+.featureStory a { color: inherit; position: relative; top: 0px; left: 0px; display: block; }
+.featureStory img { }
+.featureStory .teaser { margin: 10px 0px; }
+.featureStory .readMore { width:85px;height:15px;float:right;clear:both;background-image:url('/media/twu/style-assets/images/viewMore.png'); }
+.featureStory .videoIcon { position: absolute; bottom: 8px; right: 22px; }
+
+/* Mobile Drop Down Menu */
+
+.mobileDropDown { list-style-type: none; margin: 0px; padding: 0px; list-style-image: none !important; border-top: 1px solid #ccc; }
+.mobileDropDown li { border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 8px 16px; display: none; cursor: pointer; }
+.mobileDropDown li:first-child { background-color: #ffffff; font-size: 1.1em; padding: 8px 8px; display: block; }
+.mobileDropDown li:hover { background-color: #c4e4f7; }
+.mobileDropDown li .arrow { float: right; }
+.mobileDropDown li.active { background-color: #c4e4f7; }
+
+/* RSS Link */
+
+/* News & Events Combined list */
+
+.newsEvents2ColCt { overflow: auto; padding-top: 10px; border-top: 1px dashed #ccc; }
+.newsEvents2ColCt .verticalNewsList { float: left; width: 460px; }
+.newsEvents2ColCt .verticalNewsList .news-header { border-top: none; padding-top: 0px; font-size: 2em; }
+.newsEvents2ColCt #upcomingEventsList { float: right; width: 224px; }

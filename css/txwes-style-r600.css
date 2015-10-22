@@ -1,0 +1,395 @@
+@media screen and (min-width:600px) and (max-width:768px) {
+	
+	body {  }
+	
+	#outerCT { width: calc(100% - 20px); margin-left: auto; margin-right: auto; position: relative; top: 0px; left: 0px; }
+	
+	#headerTop { border: none; width: 100%; overflow: visible; }
+	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; }
+	
+	#headerTop #selfSelect { height: 40px; width: 40px; }
+	#headerTop #selfSelect #selfSelectTitle { display: none; }
+	#headerTop #selfSelect img { display: none; }
+	#headerTop #selfSelectDrop li { font-size: 0.9em; padding: 8px 10px; width: 110px; }
+	#headerTop #selfSelectDrop li:first-child { padding-top: 12px; }
+	#headerTop #selfSelectDrop li:last-child { padding-bottom: 12px; }
+	
+	#headerTop #findAnOffice { display: none; }
+	
+	#headerBottom { width: 100%; margin-bottom: 10px; height: auto; border-top: 4px solid #fed000; }
+	.homepage #headerBottom { margin-bottom: 0px; }
+	
+	#headerBottom #globalNav {  }
+	#headerBottom #globalNav li { line-height: 1em; padding: 8px 12px; }
+	#headerBottom #globalNav li:nth-child(5) { display: none; }
+	#headerBottom #globalNav li:nth-child(6) { display: none; }
+	#headerBottom #globalNav li:nth-child(7) { display: none; }
+	#headerBottom #globalNav li:nth-child(8) { display: none; }
+	#headerBottom #globalNav li:nth-child(9) { display: block; }
+	
+	#headerBottom #globalNavMore { top: 32px; }
+	
+	#searchCT { right: 55px; }
+	#searchCT .searchBar { width: 190px; padding: 8px 10px 0px; }
+	#searchCT .searchBar input { width: 190px; }
+	
+	#contentCT { width: 100%; background-color: transparent; background-image: url('/media/twu/style-assets/images/responsive/contentct-bg-r600.png'); background-position: left; margin-bottom: 10px; }
+	.homepage #contentCT { margin-bottom: 0px; }
+	
+	#footerCT { width: 100%; margin-bottom: 0px; }
+
+	#footerCT #logoCT { float: none; width: 440px; margin-left: auto; margin-right: auto; overflow: auto; }
+	#footerCT #logoCT #footerLogo { float: left; margin-top: 20px; }
+	#footerCT #logoCT #footerSmarter { float: left; margin-top: 35px; margin-left: 40px; }
+	#footerCT #footerContactInfo { float: none; width: 440px; margin-left: auto; margin-right: auto; }
+	#footerCT #footerSocial { float: none; width: 440px; margin-left: auto; margin-right: auto; }
+	#footerCT #footerSocial .socialButton.facebook { background-image: url('/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+	#footerCT #footerSocial .socialButton.twitter { background-image: url('/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+	#footerCT #footerSocial .socialButton.youtube { background-image: url('/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+	
+	#footerCT #copyright { width: calc(100% - 40px); }
+	
+	#goToCT { width: auto; height: auto; position: relative; bottom: 0px; left: 0px; margin-left: 0px; background-color: #004b8d; margin-top: 10px; margin-bottom: 10px; }
+	.homepage #goToCT { margin-top: 0px; margin-bottom: 0px; }
+	#goToCT .goToTitle { height: auto; background-color: #f3f3f3; position: relative; width: auto; }
+	#goToCT #goToNav { color: #ffffff; margin: 0px; padding-top: 17px; }
+	#goToCT #goToNav li { margin-bottom: 20px; border: none; width: calc(25% - 40px); }
+	
+	#breadcrumb { background-color: #ffffff; float: right; width: calc(100% - 260px); padding: 10px 25px; }
+	
+	/* Homepage Elements */
+	
+	.slider-banner #slider-banner-action { height:14px; width:10px; right: 18px; margin-top:-7px; background-image:url('http://cms.txwes.edu/media/twu/style-assets/images/banner/action-arrow.png'); }
+	.slider-banner.emergency #slider-banner-action { background-image:url('http://cms.txwes.edu/media/twu/style-assets/images/banner/emergency-arrow.png'); }
+	.slider-banner.promotion #slider-banner-action { background-image:url('http://cms.txwes.edu/media/twu/style-assets/images/banner/promotion-arrow.png'); }
+	.slider-banner.holiday #slider-banner-action { background-image:url('http://cms.txwes.edu/media/twu/style-assets/images/banner/holiday-arrow.png'); }
+	.slider-banner .slider-banner-content { padding-right: 53px; }
+	
+	#homepageTop { background-color: #f3f3f3; }
+	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; padding: 20px; }
+	#homepageTop #applyColumn #applyTitle { font-size: 1.4em; background-position: 34px center; padding: 15px 0px 15px 94px; border: 1px solid #ccc; border-bottom: none; background-color: #ffffff; }
+	#homepageTop #applyColumn #applyContent { background-color: #ffffff; border: 1px solid #ccc; border-top: none; margin-top: 0px; padding: 10px 145px 20px 40px; font-size: 1em; }
+	#homepageTop #applyColumn #applyButton { display: none;  }
+	#homepageTop #applyColumn #classTitle { margin-top: 20px; color: #000000; }
+	#homepageTop #applyColumn #classContent { width: auto; margin-bottom: 20px ; overflow: auto; }
+	#homepageTop #applyColumn #classContent ul { list-style-type: none; list-style-image: none; border-top: 1px solid #ccc; border-left: 1px solid #ccc; overflow: auto; background-color: #ffffff; }
+	#homepageTop #applyColumn #classContent ul li { float: left; font-size: 1em; width: calc(50% - 50px); border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px 15px 15px 34px; color: #004b8d; }
+	#homepageTop #applyColumn #sendInfoButton { background-repeat: no-repeat; width: auto; text-indent: 0; font-size: 1.4em; padding: 20px 10px 20px 94px; background-image: url('/media/twu/style-assets/images/homepage/icon_send_me_info.png'); background-position: 34px center; height: auto; background-color: #ffffff; border: 1px solid #cccccc; position: relative; top: 0px; left: 0px; bottom: auto; right: auto; }
+	#homepageTop #applyColumn #sendInfoButton:hover { background-image:url('/media/twu/style-assets/images/homepage/icon_send_me_info_blue.png'); }
+	#homepageTop #applyColumn br { display: none; }
+	#homepageTop #homepageRotator { float: none; width: 100%; height: auto; padding-top: 36%; }
+	#homepageTop #homepageRotator .rotatorItem .smallerSmarter { top: auto; bottom: 112px; }
+	#homepageTop #homepageRotator .rotatorItem .rotatorTitle { top: auto; bottom: 70px; }
+	#homepageTop #homepageRotator .rotatorItem .rotatorFeature { top: auto; bottom: 25px; }
+	#videoPlayerContainer { width: 100%; height: 100%; top: 0px; left: 0px; padding: 0px; position: fixed; margin: 0px; }
+	#videoPlayerContainer #videoPlayer { margin: 0px; }
+	#videoPlayerContainer #videoPlayer.vertical { width: 100%; left: 0px; height: auto; top: 50%; } /* set margin-top */
+	#videoPlayerContainer #videoPlayer.horizontal { width: auto; height: 100%; left: 50%; top: 0px; } /* set margin-left */
+	#videoPlayerContainer #videoPlayer.horizontal img { width: auto; height: 100%; }
+	#homepageTop #actionBar { float: none; width: auto; }
+	#homepageTop #actionBar .actionItem { float: none; width: auto; border: none; height: auto; padding: 0px 20px; margin-bottom: 20px; }
+	#homepageTop #actionBar .actionItem .actionTitle { border-bottom: none; background-color: #ffffff; border: 1px solid #cccccc; padding: 15px 10px 15px 96px; background-position: 34px center; font-size: 1.4em; position: static; top: 0px; left: 0px; border-bottom: none; }
+	#homepageTop #actionBar #findMyMajor.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_major.png'); }
+	#homepageTop #actionBar #visitCampus.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_map.png'); } 
+	#homepageTop #actionBar #whatWillItCost.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_cost.png'); }
+	#homepageTop #actionBar .actionItem .actionContent { width: auto; font-size: 1em; background-color: #ffffff; border: 1px solid #ccc; border-top: none; padding: 0px 145px 20px 40px; }
+	#homepageTop #actionBar .actionItem .actionButton { margin-left: 0px; left: auto; right: 20px; top: 50%; margin-top: -18px; display: none; }
+	#homepageTop .yellowArrow { display: block;  background-size: cover; height:38px; width: 26px; margin-top: -19px; right: 44px; }
+	#homepageTop #actionBar .actionItem .actionTitle .yellowArrow { right: 65px; }
+	#homepageBottom { margin-bottom: 0px; }
+	#homepageBottom #homepageNews { border-right: none; width: auto; float: none; position: relative; top: 0px; left: 0px; padding-bottom: 90px; }
+	#homepageBottom #homepageNews #homepageNewsTitle { height: 32px; }
+	#homepageBottom #homepageNews #homepageNewsTitle #moreNews { position: absolute; bottom: 36px; left: 50%; margin-left: calc(-50% + 20px); width: calc(100% - 40px); background-position: center center; background-repeat: no-repeat; background-color: #191919; height: 46px; }
+	#homepageBottom #homepageNews #homepageNewsList { width: 100%; }
+	#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem { margin-bottom: 32px; width: auto; font-size: 1.1em; }
+	#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem:last-child { margin-bottom: 0px; }
+	#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem img { float: left; margin-right: 24px; margin-bottom: 0px; }
+	#homepageBottom #homepageEvents { width: auto; float: none; position: relative; top: 0px; left: 0px; padding-bottom: 90px; }
+	#homepageBottom #homepageEvents .homepageEventsItem { font-size: 1.3em; }
+	#homepageBottom #homepageEvents #homepageEventsTitle { height: 32px; }
+	#homepageBottom #homepageEvents #homepageEventsTitle #moreEvents { position: absolute; bottom: 36px; left: 50%; margin-left: calc(-50% + 20px); width: calc(100% - 40px); background-position: center center; background-repeat: no-repeat; background-color: #191919; height: 46px; }
+	
+	/* Navigation Elements */
+
+	#parentNav { top: 0px; left: 0px; width: 176px; background-image: none; background-color: #004b8d; }
+	#sectionNav { width: 200px; }
+	#sectionNav #subNav { width: 165px; }
+	
+	/* Simple Apply Now */
+
+	#simpleApplyNow { display: none; }
+	
+	/* Left Column Apply Now Buttons */
+	
+	#contentCT #leftCol #applyNowBtns { display: block; }
+	
+	/* Page Layouts */
+	
+	/* Column Layout Elements */
+
+	h1.pageTitle { width: calc(100% - 235px); padding: 5px 0px 5px 25px; font-size: 1em; font-weight: bold; background-image: none; background-color: #fed000; color: #000000; }
+	#contentCT #leftCol { width: 200px; margin-right: 10px; }
+	#contentCT #centerCol { width: calc(100% - 260px); background-color: #ffffff; padding: 20px 25px; }
+	
+	/* 3 Column */
+	
+	#contentCT.threeCol #centerCol { width: calc(100% - 260px); border: none; padding: 20px 25px; }
+	#contentCT.threeCol #rightCol { display: none; }
+	
+	/* 1 Column */
+	
+	#contentCT.oneCol #breadcrumb { width: calc(100% - 50px); right: 0px; }
+	#contentCT.oneCol { background-image: none; }
+	#contentCT.oneCol h1.pageTitle { width: calc(100% - 25px); }
+	#contentCT.oneCol #centerCol { width: calc(100% - 50px); padding: 20px 25px; }
+	
+	/* Left Column Content */
+
+	#leftColContentCT { width: 200px; }
+	
+	/* No Nav */
+	
+	#contentCT.noNav { position: relative; top: 0px; left: 0px; background-image: url('/media/twu/style-assets/images/responsive/no-nav-bg-r600.png'); background-position: right; background-repeat: repeat-y; }
+	#contentCT.noNav #breadcrumb { display: none; }
+	#contentCT.noNav #centerCol { width: calc(100% - 260px); border-right: none; }
+	#contentCT.noNav.newsEvents #centerCol { width: calc(100% - 260px); }
+	#contentCT.noNav h1.pageTitle { width: calc(100% - 235px); margin-top: 0px; color: #ffffff; background-color: #004b8d; font-size: 1.3em; padding-top: 10px; padding-bottom: 10px; }
+	#contentCT.noNav.newsEvents h1.pageTitle { padding-left: 10px; width: calc(100% - 220px); }
+	#contentCT.noNav #rightCol { width: 200px; background-color: #f3f3f3; padding: 0px; position: relative; top: -45px; left: 0px;}
+	
+	/* Content Elements & Layouts */
+	
+	#contactInfoCT { width: 200px; }
+	#contentCT.noNav #contactInfoCT { float: right; margin-right: 0px; background-color: #f3f3f3; }
+	
+	/* Emergency Alerts Page */
+	
+	#alertDisplay { float: none; width: auto; }
+	#alertDisplay #warning-image { width: 100px; }
+	#alertDisplay #warning-text { width: calc(100% - 115px); }
+	#contact911 { float: none; width: auto; }
+	#alertsSignUp { float: none; width: auto; }
+	#alertsSignUp a:last-child img { margin-left: 40px; margin-top: 5px; }
+	#emergencyNav { float: none; width: auto; }
+	#emergencyProcedures { float: none; width: auto; }
+	#emergencyNav .emergencyButton { width: calc(50% - 30px); margin-right: 0px; }
+	#emergencyNav a:nth-child(even) .emergencyButton { margin-right: 10px; }
+	#facilitiesSecurity { float: none; width: auto; }
+	#facilitiesSecurity #facilities { float: none; width: auto; margin-bottom: 20px; }
+	#facilitiesSecurity #facilities #facilitiesCT { width: auto; }
+	#facilitiesSecurity #facilities #facilitiesCT #facilitiesPhoto { width: 100%; }
+	#facilitiesSecurity #security { float: none; width: auto; }
+	#facilitiesSecurity #security #securityCT { width: auto; }
+	#facilitiesSecurity #security #securityCT #securityPhoto { width: 100%; }
+	#disabilities { float: none; width: auto; }
+	
+	/* News and Events Page */
+	
+	#newsEventsTop { margin-top: 0px; }
+	#newsEventsTop #featuredStory { float: none; border-top: none; padding-top: 0px; width: 100%; }
+	#newsEventsTop #featuredStory #featuredStoryDate { display: none; }
+	#newsEventsTop #featuredStory #featuredStoryBanner { text-indent: 0; white-space: normal; background-image: none; width: calc(100% - 20px); padding: 3px 10px; background-color: #fed000; height: auto; }
+	#newsEventsTop #featuredStory #featuredStoryContent { width: 100%; padding: 0px; border: none; overflow:auto; position: relative; top: 0px; left: 0px; background-color: #191919; }
+	#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryTitle { font-size: 2em; margin-bottom: 0px; background-color: rgba(19,19,19,0.7); width: calc(85% - 10px); position: absolute; bottom: 0px; left: 0px; padding: 10px 15% 10px 10px; color: #ffffff; background-image: url('/media/twu/style-assets/images/responsive/news-banner-arrow.png'); background-repeat: no-repeat; background-position: 95% center; }
+	#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryPhoto { margin-bottom:0px; }
+	#newsEventsTop #featuredStory #featuredStoryContent #featuredStorySummary { display: none; }
+	#newsEventsTop #featuredStory #featuredStoryContent #featuredStoryLearnMore { display: none; }
+	#newsEventsTop #featuredStoriesList { border-top: none; padding-top: 0px; width: 100%; float: none; }
+	#newsEventsTop #featuredStoriesList { border-top: none; padding: 0px; width: auto; float: none; }
+	#newsEventsTop #featuredStoriesList #featuredStoriesHeader { border-bottom: none; padding: 5px 10px; margin-bottom: 0px; background-color: #004b8d; color: #ffffff; }
+	#newsEventsTop #featuredStoriesList #featuredStories { padding:0px 5px; margin-bottom: 20px; }
+	#newsEventsTop #featuredStoriesList #featuredStories .featuredListItem { margin-bottom: 0px; font-size: 1em; overflow: auto; border-bottom: 1px dashed #ccc; padding: 10px 5px; }
+	#newsEventsTop #featuredStoriesList #featuredStories .featuredListItem .featuredDate { display: none; }
+	#newsEventsTop #featuredStoriesList #featuredStories .featuredListItem .featuredTitle { float: none; width: auto; }
+	#newsEventsTop #moreNewsButton { width: 127px; height: 33px; border: none; margin-left: 10px; background-image: url('/media/twu/style-assets/images/responsive/more-news-button.png'); background-position: left center; position: static; }
+	#newsEventsBottom #monthlyEvents { display: none; }
+	#newsEventsBottom #engagingEducators { float:none; border:none; width:calc(100% - 20px); position:relative; top:0px; left:0px; margin-right:10px; margin-left:10px; padding:0px; margin-bottom: 20px; min-height: 0; background-color: #191919; }
+	#newsEventsBottom #engagingEducators #engagingEducatorsHeader { padding: 5px 10px; border: none; background-color: #004b8d; color: #fff; }
+	#newsEventsBottom #engagingEducators #engagingEducatorsTitle { font-size:1em; padding:5px 15% 5px 10px; width: calc(85% - 10px); position: absolute; bottom: 0px; left: 0px; background-color: rgba(19,19,19,0.7); color: #fff; background-image: url('/media/twu/style-assets/images/responsive/news-banner-arrow.png'); background-repeat: no-repeat; background-position: 95% center; }
+	#newsEventsBottom #engagingEducators #engagingEducatorsLearnMore { display:none; }
+	#newsEventsBottom #moversShakers { float:none;border: none; width:calc(100% - 20px); position:relative;top:0px;left:0px; margin-right:10px; margin-left:10px; padding:0px; margin-bottom: 0px; min-height: 0; background-color: #191919; }
+	#newsEventsBottom #moversShakers #moversShakersHeader { padding: 5px 10px; border:none; background-color: #004b8d; color: #fff; }
+	#newsEventsBottom #moversShakers #moversShakersTitle { font-size:1em; padding:5px 15% 5px 10px; width: calc(85% - 10px); position: absolute; bottom: 0px; left: 0px; background-color: rgba(19,19,19,0.7); color: #fff;  background-image: url('/media/twu/style-assets/images/responsive/news-banner-arrow.png'); background-repeat: no-repeat; background-position: 95% center; }
+	#newsEventsBottom #moversShakers #moversShakersLearnMore { display: none; }
+	
+	/* News Details */
+	
+	#newsItemContainer { width:100%; float: none; }
+	#eventItemContainer { width:100%; float: none; }
+	#suggestionBox { width:100%; float: none; margin-top:0px; margin-bottom: 20px; }
+	
+	/* News Archive */
+	
+	#newsArchiveContainer { border: none; }
+	#newsArchiveContainer .newsArchiveItem:nth-last-child(2) { border-bottom: none; }
+	#newsArchiveContainer .newsArchiveItem .newsArchiveItemDate { float:none; font-size: 0.9em; text-align: left; }
+	#newsArchiveContainer .newsArchiveItem .newsArchiveItemTitle { width:calc(100% - 65px); }
+	#newsArchiveContainer .newsArchiveItem .newsArchiveItemIcons { width:auto; }
+	.AC-Pager {	border-bottom: none; padding-top:15px; padding-bottom: 15px; }
+	.AC-Pager a { padding: 0px 2px; }
+	
+	/* News & Events Calendar */
+	
+	#calendarContainer { }
+	#calendarContainer .day-number { font-size: 1em; }
+	#calendarContainer .day-number .dot { height: 7px; width: 7px; margin-left: -3px; margin-top: 10px; }
+	#monthTitle { left: auto; right: 20px; }
+	#calendarYear { background-color: rgba(19,19,19,0.7); color: #ffffff; padding: 5px 10px; top: -3px; left: 10px; }
+	#calendarYear:hover { height:auto; }
+	#selectYear { border:none; position:absolute; top:100%; left:0px; background-color:rgba(19,19,19,0.7); width:100%; }
+	#selectYear div { padding:5px; margin-left: 5px; margin-right: 5px; border-bottom: 1px solid #ffffff; }
+	#selectYear div:last-child { border: none; }
+	#calendarSelect { top: -56px; background-color: #002460; color: #ffffff; padding: 5px 10px; right: 10px; z-index: 99; }
+	#calendarSelect:hover { height: auto; }
+	#calendarOption { border: none; width: 100%; background-color: rgba(19,19,19,0.8); left: 0px; top: 100%; }
+	#calendarOption div { border-bottom: 1px solid #ffffff; margin-left: 5px; margin-right: 5px; padding: 5px; }
+	#calendarOption div:last-child { border-bottom: none; }
+	#eventsContainer .event .eventTitle { font-size: 1em; }
+	
+	/* Upcoming Events */
+	
+	#upcomingEventsList {border: none;}
+	#upcomingEventsList #upcomingEventsHeader {background-image:none;background-color:#004b8d;font-size:1.1em;height:auto;text-indent: 10px;padding:5px 0px;color:#ffffff;}
+	#upcomingEventsList .upcomingEvent {margin-bottom:10px;border-bottom:1px dashed #ccc;padding-bottom:10px;}
+	#upcomingEventsList #upcomingEventsListSpacer { display: none; }
+	#upcomingEventsList #upcomingEventsListAllEvents {height:15px;padding:15px 0px;text-align:center;width:90%; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
+	#upcomingEventsList #upcomingEventsListAllEvents img {float:none;display:inline-block;}
+	
+	/* Content Block */
+	
+	.contentBlock { background-image: none; padding: 0px; }
+	.contentBlock .contentBlockHeader { border-bottom: none; color: #000000; }
+	
+	/* Featured Content with Image */
+	
+	.featuredContent .image { display: none; }
+	.featuredContent .title { background-image: none; background-color: #004b8d; color: #ffffff; }
+	.featuredContent .title a, .featuredContent .title a:visited { color: inherit; }
+	.featuredContent.varOne .title { background-image: none; background-color: #004b8d; color: #ffffff; }
+	.featuredContent.noImage .title { padding-left: 10px; }
+	
+	/* Featured Content Block */
+	
+	.featuredContentBlockHeader { background-image: none; border: none; padding: 5px 10px; background-color: #c4e4f7; }
+	.featuredContentBlock { background-image: none; border: none; padding: 20px; position: relative; top: 0px; left: 0px; }
+	
+	/* Counselor Callout */
+	
+	.selectRowContainer .selectRow { padding-bottom: 2em; }
+	.selectRowContainer .selectRow .selectRowText { margin-left: 95px; }
+	.selectRowContainer .selectRow .selectRowControls, .selectRowContainer .selectRow .professorCalloutEmailButton { top: auto; bottom: 0px; right: 50%; margin-right: -35%; width: 70%; }
+	
+	/* Counselor Details */
+	
+	#counselorContainer #counselorInfo .otherInfo { float: none; width: auto; }
+	#counselorContainer #counselorInfo .contactInfo { float: none; }
+	#counselorContainer #counselorPhoto #counselorName { bottom: 115px; }
+	#counselorContainer #counselorPhoto #hometown { bottom: 75px; }
+	#counselorContainer #counselorPhoto #contact { max-height: 75px; position: static; }
+	#counselorContainer #counselorPhoto #contact #email { float: none; border: none; }
+	#counselorContainer #counselorPhoto #contact #phone { float: none; }
+	#counselorContainer #counselorPhoto #contact #facebook { height: 75px; }
+	#counselorContainer #upcomingEventsList.counselor { position: static; top: 0; right: 0; margin-bottom: 20px; }
+	#counselorContainer #upcomingEventsList.counselor #upcomingEventsListContainer { display: none; }
+	
+	/* Professor Details */
+	
+	#professorHeadContainer { border: none; }
+	#professorHeadContainer #professorNavigation { overflow: auto; width: 100%; }
+	#professorHeadContainer #professorNavigation .professorNavigationIntro { float: none; text-align: left; width: 100%; margin-bottom: 10px; }
+	#professorHeadContainer #professorNavigation img { width: 45%; height: auto; float: left; margin-left: 0px; }
+	#professorHeadContainer #professorNavigation a:last-child img { float: right; }
+	#professorContactContainer .professorContactButton { float: none; }
+	#professorContactContainer .professorContactAlternate { float: none; margin-left: 0px; }
+	#professorQAHeader { border: none; }
+	.professorQuestionContainer { border: none; }
+	.professorQuestionContainer .professorDot { display: none; }
+	.professorQuestionContainer .professorQuestion { padding-left: 0px; }
+	.professorQuestionContainer .professorAnswer { padding-left: 0px; }
+	
+	/* CSS List Table Layout */
+
+	.table.list { border-top: 1px solid #ccc; border-left: none; display: block; }
+	.table.list .row { display: block; }
+	.table.list .row:hover { background-color: #f3f3f3; }
+	.table.list .row .cell { border-top: none; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; background-color: #f3f3f3; width: auto; padding: 6px 12px; display: block; }
+	.table.list .row .cell.empty { display: none; }
+	
+	/* CSS Data Table */
+
+	.table.data { border: 1px solid #ccc; display: block; }
+	.table.data .row { display: block }
+	.table.data .row .cell { border: none; border-bottom: 1px solid #ccc; background-color: #f3f3f3; padding: 10px 10px; display: block; overflow: auto; }
+	.table.data .row .cell:first-child { border-right: none; background-color: #ffffff; width: auto; }
+	.table.data .row:hover { background-color: transparent; }
+	.table.data .row:hover .cell:first-child { background-color: #d5e5ef; }
+	.table.data .row:last-child .cell { border-bottom: 1px solid #cccccc; }
+	.table.data .row:last-child .cell:last-child { border-bottom: none; }
+	.table.data .row .cell ul { margin: 0px; padding: 5px 15px; }
+	
+	/* CTA Options */
+	
+	.ctaOptionsCT { display: block; border: none; background-color: transparent; width: 100%; font-size: 1em; }
+	.ctaOptionsCT .ctaOptions { display: block; }
+	.ctaOptionsCT.vision .ctaOption, .ctaOptionsCT.five .ctaOption, .ctaOptionsCT.four .ctaOption, .ctaOptionsCT.president .ctaOption, .ctaOptionsCT .ctaOption { display: block; background-color: #ffffff; border: 1px solid #d3d3d3; width: calc(100% - 77px); padding: 13px 5px 13px 70px; margin-bottom: 20px; height: auto; background-position: 10px center; }
+	.ctaOptionsCT .ctaOption:last-child { border: 1px solid #d3d3d3; margin-bottom: 0px; }
+	.ctaOptionsCT .ctaOption .optionArrow, .ctaOptionsCT .ctaOption .arrow { display: block; }
+		
+	.ctaOptionsCT .ctaOption.academic { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/icon_major.png'); }
+	.ctaOptionsCT .ctaOption.dining { background-image:url('/media/twu/style-assets/images/buttons/cta_dining_mobile.png'); }
+	.ctaOptionsCT .ctaOption.graduate { background-image:url('/media/twu/style-assets/images/buttons/cta_graduate_mobile.png'); background-size: 36px; padding-left: 50px; }
+	.ctaOptionsCT .ctaOption.housing { background-image:url('/media/twu/style-assets/images/buttons/cta_housing_mobile.png'); }
+	.ctaOptionsCT .ctaOption.location { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/icon_map.png'); }
+	.ctaOptionsCT .ctaOption.money { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/icon_cost.png'); }
+	.ctaOptionsCT .ctaOption.undergraduate { background-image:url('/media/twu/style-assets/images/buttons/cta_undergraduate_mobile.png'); background-size: 36px; padding-left: 50px; }
+	
+	/* CTA Options for President's Site */
+	
+	.ctaOptionsCT.vision .ctaOption, .ctaOptionsCT.five .ctaOption, .ctaOptionsCT.four .ctaOption, .ctaOptionsCT.president .ctaOption { background-size: 36px; font-size: 1em; text-align: left; }
+	.ctaOptionsCT.president .ctaOption:hover { background-color: #e5e5e5; }
+	.ctaOptionsCT .ctaOption.aboutPresident { background-image:url('https://cms.txwes.edu/media/twu/office-of-the-president/about_the_president_gray.png'); }
+	.ctaOptionsCT .ctaOption.forumsIdeas { background-image:url('https://cms.txwes.edu/media/twu/office-of-the-president/forums_and_ideas_gray.png'); }
+	.ctaOptionsCT .ctaOption.vision { background-image:url('https://cms.txwes.edu/media/twu/office-of-the-president/2020_vision_gray.png'); }
+	.ctaOptionsCT .ctaOption.ourStaff { background-image:url('https://cms.txwes.edu/media/twu/office-of-the-president/our_staff_gray.png'); }
+	
+	.ctaOptionsCT.vision .ctaOption { margin-bottom: 85px; }
+	.ctaOptionsCT.vision .ctaOption .hoverInfo { display: block; width: calc(100% - 19px); border: none; background-color: #f3f3f3; top: 102%; padding-bottom: 35px; }
+	.ctaOptionsCT.vision .ctaOption .hoverInfo .learnMore { display: none; }
+	
+	/* Right Column Mobile Content */
+
+	.rcMobile-d, .desktop-only { display: none; }
+	.rcMobile-m, .mobile-only { display: block; }
+	
+	/* Signature Quote */
+	
+	.signatureQuoteCT.president { padding-bottom: 185px; }
+	.signatureQuoteCT .signatureQuote { width: 100%; }
+	
+	/* Captioned Image */
+	.captionedImage img { width: 100% !important; float: none !important; }
+	.captionedImage .caption { width: auto !important; padding: 10px !important; float: none !important; text-align: left !important; }
+	
+	/* News Rotator */
+	.news-rotator {  }
+	.news-rotator .rotator-item .rotator-photo { float: none; width: auto; }
+	.news-rotator .rotator-item .rotator-title { float: none; width: auto; }
+	.news-rotator .rotator-item .rotator-teaser { float: none; width: auto; }
+	.news-rotator .rotator-item .rotator-more { float: none; width: auto; }
+	
+	/* Horizontal News List */
+	.horizontalNewsList .newsItem { width: 50%; }
+	#contentCT.newsEvents .horizontalNewsList .newsItem { width: 50%; }
+	.horizontalNewsList .newsItem:nth-child(2n) .image, .horizontalNewsList .newsItem:nth-child(2n) .title { margin: 0px auto 0px 0px; }
+	.horizontalNewsList .newsItem:nth-child(2n) .category { margin: 8px auto 10px 0px; }
+	.horizontalNewsList .newsItem:nth-child(2n+1) .image, .horizontalNewsList .newsItem:nth-child(2n+1) .title { margin: 0px 0px 0px auto; }
+	.horizontalNewsList .newsItem:nth-child(2n+1) .category { margin: 8px 0px 10px auto; }
+	.horizontalNewsList .newsItem:nth-child(2n) { clear: both; }
+	#contentCT.threeCol .horizontalNewsList .newsItem:nth-child(2n) .image, #contentCT.threeCol .horizontalNewsList .newsItem:nth-child(2n) .title { margin: 0px auto 0px 0px; }
+	#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(2n) .image, #contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(2n) .title { margin: 0px auto 0px 0px; }
+	#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(2n) .category { margin: 8px auto 10px 0px; }
+	
+	/* News & Events Combined list */
+	.newsEvents2ColCt .verticalNewsList { width: auto; display: block; float: none; }
+	.newsEvents2ColCt #upcomingEventsList { width: auto; display: block; float: none; }
+}
