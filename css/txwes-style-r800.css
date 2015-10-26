@@ -121,6 +121,10 @@
 	#contentCT.oneCol h1.pageTitle { width: calc(100% - 25px); float: none; }
 	#contentCT.oneCol #centerCol { width: calc(100% - 50px); float: none; padding: 20px 25px; overflow: auto; }
 	
+	/* Page Title Content Box */
+	
+	.pageTitle-content { display: none; }
+	
 	/* Left Column Content */
 
 	#leftColContentCT { width: 220px; }

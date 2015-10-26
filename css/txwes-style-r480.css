@@ -146,6 +146,10 @@
 	#contentCT.oneCol h1.pageTitle { width: auto; }
 	#contentCT.oneCol #centerCol { width: auto; padding: 20px 10px; }
 	
+	/* Page Title Content Box */
+	
+	.pageTitle-content { display: none; }
+	
 	/* Left Column Content */
 
 	#leftColContentCT { width: 100%; margin-top: 0px; float: none; clear: none; }

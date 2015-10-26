@@ -333,6 +333,11 @@ h1.pageTitle { float: left; width: 726px; margin:0px; padding: 13px 0px 13px 50p
 #contentCT.oneCol h1.pageTitle { width: 950px; }
 #contentCT.oneCol #centerCol { width: 936px; }
 
+/* Page Title Content Box */
+
+.pageTitle { position: relative; top: 0px; left: 0px; }
+.pageTitle-content { position: absolute; font-size: 0.6em; top: 50%; right: 30px; margin-top: -15px; }
+
 /* Left Column Content */
 
 #leftColContentCT { width: 224px; margin-top: 20px; float: left; clear: left; background-color: #f3f3f3; overflow: auto; }
