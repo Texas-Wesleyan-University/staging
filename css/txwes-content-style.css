@@ -237,11 +237,13 @@
 /* Upcoming Events */
 
 #upcomingEventsList { margin-bottom: 20px; }
-#upcomingEventsList #upcomingEventsHeader { background-color: #5c8ab9;color:#ffffff;padding:8px 15px;overflow:hidden;font-family:'Oswald',Arial,Helvetica,sans-serif;font-size:2em;}
+#upcomingEventsList #upcomingEventsHeader { background-color: #5c8ab9;color:#ffffff;padding:8px 15px;overflow:hidden;font-family:'Oswald',Arial,Helvetica,sans-serif;font-size:2em;text-transform:uppercase;}
 #upcomingEventsList #upcomingEventsListContainer {border:1px solid #ccc;border-top:none;}
 #upcomingEventsList #upcomingEventsListSubContainer { padding: 10px 15px 0px; }
 #upcomingEventsList .upcomingEvent {margin-bottom:10px;}
 #upcomingEventsList .upcomingEventDate {background-image:url('/media/twu/style-assets/images/bg_eventDate.png');float:left;height:41px;width:41px;padding:6px 0px 5px;text-transform: uppercase;line-height:1.4em;text-align:center;float:left;background-repeat:no-repeat;}
+#upcomingEventsList .upcomingEventDate .AC-EventMonth { font-size: 0.8em; line-height: 0.8em; }
+#upcomingEventsList .upcomingEventDate .AC-EventDay { font-size: 1.2em; }
 #upcomingEventsList .upcomingEventTitle {min-height:52px;margin-left:51px;font-size:0.9em;}
 #upcomingEventsList #upcomingEventsListSpacer {height:1px;background-color:#ccc;}
 #upcomingEventsList #upcomingEventsListAllEvents {height:15px;padding:15px;background-color:#ffffff;}
@@ -264,7 +266,7 @@
 /* Cross Expander */
 
 .divExpanderCt { margin:1em 0px; }
-.divExpanderCt .divExpanderTitle { background-image:url('/media/twu/style-assets/images/icon_open.png');background-repeat:no-repeat;background-position-x:5px;background-position-y:center;padding:5px 35px;font-size:1.3em;font-weight:bold;background-color:#c4e4f7;cursor:pointer; }
+.divExpanderCt .divExpanderTitle { background-image:url('/media/twu/style-assets/images/icon_open.png');background-repeat:no-repeat;background-position:5px center;padding:5px 35px;font-size:1.3em;font-weight:bold;background-color:#c4e4f7;cursor:pointer; }
 .divExpanderCt .divExpanderTitle.open { background-image:url('/media/twu/style-assets/images/icon_close.png'); }
 
 /* Featured Paragraph */
@@ -697,10 +699,11 @@ form .instructions { margin-bottom: 10px; }
 .horizontalNewsList .header { background-image: url('/media/twu/style-assets/images/homepage/news.png'); background-repeat: no-repeat; background-position: left center; padding: 10px 0px 10px 100px; margin-bottom: 15px; }
 .horizontalNewsList .header .moreNews { background-image: url('/media/twu/style-assets/images/homepage/more-news.png'); width: 123px; height: 29px; }
 .horizontalNewsList .news-header { font-size: 1.5em; font-family: 'Oswald', Arial, Helvetica, sans-serif; border-top: 1px dashed #ccc; padding-top: 8px; text-transform: uppercase; }
-.horizontalNewsList .newsItem { width: 25%; float: left; margin-bottom: 15px; }
+.horizontalNewsList .newsItem { width: 25%; float: left; margin-bottom: 44px; }
 #contentCT.threeCol .horizontalNewsList .newsItem { width: 33%; }
 .horizontalNewsList .newsItem .image, .horizontalNewsList .newsItem .title { width: 90%; margin: 0px auto; color: #333; }
 .horizontalNewsList .newsItem .image { min-height: 100px; background-image: url('/media/twu/style-assets/images/news-placeholder.png'); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; top: 0px; left: 0px; vertical-align: top; }
+.horizontalNewsList .newsItem .title { padding-top: 14px; font-weight: bold; }
 .horizontalNewsList .newsItem .title a { color: inherit; }
 .horizontalNewsList .newsItem .image { position: relative; top: 0px; left: 0px; }
 .horizontalNewsList .newsItem .image img { display: block; vertical-align: top; }
@@ -765,16 +768,16 @@ form .instructions { margin-bottom: 10px; }
 /* News Rotator */
 
 .news-rotator { width: 100%; border-bottom: 1px dashed #ccc; position: relative; top: 0px; left: 0px; padding-bottom: 35px; margin-bottom: 20px; }
-.news-rotator .rotator-item { position: absolute; top: 0px; left: 0px; }
+.news-rotator .rotator-item { position: absolute; top: 0px; left: 0px; background-color: #f3f3f3; }
 .news-rotator .rotator-item .rotator-photo { float: left; width: 48%; }
-.news-rotator .rotator-item .rotator-photo img { width: 100%; }
+.news-rotator .rotator-item .rotator-photo img { width: 100%; vertical-align: top; }
 .news-rotator .rotator-item .rotator-category { text-transform: uppercase; font-family: 'Oswald'; font-size: 0.7em; margin-bottom: 8px; color: #004b8d; }
-.news-rotator .rotator-item .rotator-title { float: right; width: 48%; clear: right; font-size: 1.3em; margin: 0px 0px 8px; color: #000000; }
+.news-rotator .rotator-item .rotator-title { float: right; width: 48%; clear: right; font-size: 1.3em; margin: 20px 0px 8px; color: #000000; }
 .news-rotator .rotator-item .rotator-title a { color: inherit; }
-.news-rotator .rotator-item .rotator-teaser { float: right; width: 48%; clear: right; margin: 12px 0px; }
+.news-rotator .rotator-item .rotator-teaser { float: right; width: 48%; clear: right; margin: 12px 0px; font-size: 0.9em; }
 .news-rotator .rotator-item .rotator-teaser a { color: inherit; }
 .news-rotator .rotator-item .rotator-more { float: right; width: 48%; clear: right; }
-.news-rotator .rotator-controls { height: 25px; width: 100%; text-align: center; clear: both; position: absolute; bottom: 0px; left: 0px; }
+.news-rotator .rotator-controls { height: 25px; width: 100%; text-align: center; clear: both; position: absolute; bottom: 5px; left: 0px; }
 .news-rotator .rotator-controls .rotator-bullet { cursor: pointer; display: inline-block; height: 25px; width: 25px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorGreyDot.png'); background-repeat: no-repeat; background-position: center center; }
 .news-rotator .rotator-controls .rotator-bullet.current { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorYellowDot.png'); }
 .news-rotator .news-rotator-left { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; left: 0px; }

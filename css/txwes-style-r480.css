@@ -274,7 +274,7 @@
 	/* Upcoming Events */
 	
 	#upcomingEventsList {border: none;}
-	#upcomingEventsList #upcomingEventsHeader {background-image:none;background-color:#004b8d;font-size:1.1em;height:auto;text-indent: 10px;padding:5px 0px;color:#ffffff;}
+	#upcomingEventsList #upcomingEventsHeader {background-image:none;background-color:#5C8AB9;font-size:1.1em;height:auto;text-indent: 10px;padding:5px 0px;color:#ffffff;}
 	#upcomingEventsList .upcomingEvent {margin-bottom:10px;border-bottom:1px dashed #ccc;padding-bottom:10px;}
 	#upcomingEventsList #upcomingEventsListSpacer { display: none; }
 	#upcomingEventsList #upcomingEventsListAllEvents {height:15px;padding:15px 0px;text-align:center;width:90%; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
@@ -424,5 +424,10 @@
 	
 	/* News & Events Combined list */
 	.newsEvents2ColCt .verticalNewsList { width: auto; display: block; float: none; }
-	.newsEvents2ColCt #upcomingEventsList { width: auto; display: block; float: none; }
+	.newsEvents2ColCt #upcomingEventsList { width: auto; display: block; float: none; margin-top: 20px; }
+	
+	/* RSS Link */
+	
+	.rss-link { padding: 0px; width: calc(100% - 20px); margin: auto; }
+	.rss-link a { display: block; text-align: center; background-color: #ffffff; border: 1px solid #ccc; padding: 7px 0px; }
 }

@@ -395,5 +395,10 @@
 	
 	/* News & Events Combined list */
 	.newsEvents2ColCt .verticalNewsList { width: auto; display: block; float: none; }
-	.newsEvents2ColCt #upcomingEventsList { width: auto; display: block; float: none; }
+	.newsEvents2ColCt #upcomingEventsList { width: auto; display: block; float: none; margin-top: 20px; }
+	
+	/* RSS Link */
+	
+	.rss-link { padding: 0px; width: calc(100% - 20px); margin: auto; }
+	.rss-link a { display: block; text-align: center; background-color: #ffffff; border: 1px solid #ccc; padding: 7px 0px; }
 }
