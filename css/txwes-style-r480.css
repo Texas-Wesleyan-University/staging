@@ -66,17 +66,11 @@
 	.slider-banner .slider-banner-content { top: 5px; left: 82px; padding-right: 53px; font-size: 0.9em; }
 	
 	#homepageTop { background-color: #f3f3f3; }
-	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; }
-	#homepageTop #applyColumn #applyTitle { font-size: 1.4em; background-position: 8px center; padding: 15px 0px 15px 68px; border: 1px solid #ccc; background-color: #ffffff; position: relative; top: 0px; left: 0px; }
-	#homepageTop #applyColumn #applyContent { display: none; }
-	#homepageTop #applyColumn #applyButton { display: none;  }
-	#homepageTop #applyColumn #classTitle { margin-top: 20px; color: #000000; }
-	#homepageTop #applyColumn #classContent { width: auto; margin-bottom: 20px ; overflow: auto; }
-	#homepageTop #applyColumn #classContent ul { list-style-type: none; list-style-image: none; border-top: 1px solid #ccc; border-left: 1px solid #ccc; overflow: auto; background-color: #ffffff; }
-	#homepageTop #applyColumn #classContent ul li { float: left; font-size: 1em; width: calc(50% - 31px); border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px; color: #004b8d; }
-	#homepageTop #applyColumn #sendInfoButton { background-repeat: no-repeat; width: auto; text-indent: 0; font-size: 1.4em; padding: 15px 10px 15px 68px; background-image: url('/media/twu/style-assets/images/homepage/icon_send_me_info.png'); background-position: 8px center; height: auto; background-color: #ffffff; border: 1px solid #cccccc; position: relative; top: 0px; left: 0px; bottom: auto; right: auto; }
-	#homepageTop #applyColumn #sendInfoButton:hover { background-image:url('/media/twu/style-assets/images/homepage/icon_send_me_info_blue.png'); }
-	#homepageTop #applyColumn br { display: none; }
+	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; padding: 0px; margin-bottom: 20px; }
+	#homepageTop #applyColumn #applyContent { width: auto; height: auto; float: none; background-image: none; background-color: #dae4e8; border-bottom: 4px solid #b7cfe2; text-align: center; }
+	#homepageTop #applyColumn #giveContent { width: auto; height: auto; float: none; background-image: none; background-color: #004b8d; border-bottom: 4px solid #002460; text-align: center; }
+	#homepageTop #applyColumn #applyContent:hover, #homepageTop #applyColumn #giveContent:hover { background-image: none; }
+	#homepageTop #applyColumn #applyContent img, #homepageTop #applyColumn #giveContent img { display: inline-block; }
 	#homepageTop #homepageRotator { float: none; width: 100%; height: auto; padding-top: 36%; }
 	#homepageTop #homepageRotator .rotatorItem .smallerSmarter { top: auto; bottom: 72px; left: 40px; font-size: 0.8em; }
 	#homepageTop #homepageRotator .rotatorItem .yellow:after { display: block; content: ""; clear: both; }
@@ -89,13 +83,15 @@
 	#videoPlayerContainer #videoPlayer.horizontal img { width: auto; height: 100%; }
 	#homepageTop #actionBar { float: none; width: auto; }
 	#homepageTop #actionBar .actionItem { float: none; width: auto; border: none; height: auto; padding: 0px 20px; margin-bottom: 20px; }
-	#homepageTop #actionBar .actionItem .actionTitle { border-bottom: none; background-color: #ffffff; border: 1px solid #cccccc; padding: 15px 10px 15px 68px; background-position: 8px center; font-size: 1.4em; position: relative; top: 0px; left: 0px; }
+	#homepageTop #actionBar .actionItem .actionTitle { border-bottom: none; background-color: #ffffff; border: 1px solid #cccccc; padding: 15px 10px 15px 68px; background-position: 0px center; background-size: 65px; font-size: 1.4em; position: relative; top: 0px; left: 0px; }
+	#homepageTop #actionBar #sendMeInfo.actionItem { width: auto; background-image: none; }
+	/*#homepageTop #actionBar #sendMeInfo.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_send_me_info.png'); }
 	#homepageTop #actionBar #findMyMajor.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_major.png'); }
 	#homepageTop #actionBar #visitCampus.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_map.png'); } 
-	#homepageTop #actionBar #whatWillItCost.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_cost.png'); }
+	#homepageTop #actionBar #whatWillItCost.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_cost.png'); } */
 	#homepageTop #actionBar .actionItem .actionContent { width: calc(100% - 249px); font-size: 1.1em; display: none; }
 	#homepageTop #actionBar .actionItem .actionButton { margin-left: 0px; left: auto; right: 20px; top: 50%; margin-top: -18px; display: none; }
-	#homepageTop .yellowArrow { display: block; }
+	#homepageTop .yellowArrow { display: block; background-size: cover; }
 	#homepageBottom { margin-bottom: 0px; }
 	#homepageBottom #homepageNews { border-right: none; width: auto; float: none; position: relative; top: 0px; left: 0px; padding-bottom: 90px; }
 	#homepageBottom #homepageNews #homepageNewsTitle { height: 32px; }

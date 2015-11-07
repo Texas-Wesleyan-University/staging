@@ -10,8 +10,6 @@
 	.slider-banner .slider-banner-content .slider-banner-title .slider-banner-date { display: none; }
 	.slider-banner .slider-banner-content .slider-banner-text { font-size: 0.9em; }
 	
-	#homepageTop #applyColumn { padding: 15px 18px; }
-	#homepageTop #applyColumn #classContent ul li { font-size: 0.9em; white-space: nowrap; padding: 15px 5px; width: calc(50% - 11px); }
 	#homepageTop #actionBar .actionItem { padding: 0px 18px; }
 	#homepageBottom #homepageNews { padding-left: 18px; padding-right: 18px; }
 	#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem { width: 100%;  }

@@ -66,17 +66,11 @@
 	.slider-banner .slider-banner-content { padding-right: 53px; }
 	
 	#homepageTop { background-color: #f3f3f3; }
-	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; padding: 20px; }
-	#homepageTop #applyColumn #applyTitle { font-size: 1.4em; background-position: 34px center; padding: 15px 0px 15px 94px; border: 1px solid #ccc; border-bottom: none; background-color: #ffffff; }
-	#homepageTop #applyColumn #applyContent { background-color: #ffffff; border: 1px solid #ccc; border-top: none; margin-top: 0px; padding: 10px 145px 20px 40px; font-size: 1em; }
-	#homepageTop #applyColumn #applyButton { display: none;  }
-	#homepageTop #applyColumn #classTitle { margin-top: 20px; color: #000000; }
-	#homepageTop #applyColumn #classContent { width: auto; margin-bottom: 20px ; overflow: auto; }
-	#homepageTop #applyColumn #classContent ul { list-style-type: none; list-style-image: none; border-top: 1px solid #ccc; border-left: 1px solid #ccc; overflow: auto; background-color: #ffffff; }
-	#homepageTop #applyColumn #classContent ul li { float: left; font-size: 1em; width: calc(50% - 50px); border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px 15px 15px 34px; color: #004b8d; }
-	#homepageTop #applyColumn #sendInfoButton { background-repeat: no-repeat; width: auto; text-indent: 0; font-size: 1.4em; padding: 20px 10px 20px 94px; background-image: url('/media/twu/style-assets/images/homepage/icon_send_me_info.png'); background-position: 34px center; height: auto; background-color: #ffffff; border: 1px solid #cccccc; position: relative; top: 0px; left: 0px; bottom: auto; right: auto; }
-	#homepageTop #applyColumn #sendInfoButton:hover { background-image:url('/media/twu/style-assets/images/homepage/icon_send_me_info_blue.png'); }
-	#homepageTop #applyColumn br { display: none; }
+	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; }
+	#homepageTop #applyColumn #applyContent { width: 50%; height: auto; float: left; background-image: none; background-color: #dae4e8; border-bottom: 4px solid #b7cfe2; text-align: center; }
+	#homepageTop #applyColumn #giveContent { width: 50%; height: auto; float: right; background-image: none; background-color: #004b8d; border-bottom: 4px solid #002460; text-align: center; }
+	#homepageTop #applyColumn #applyContent:hover, #homepageTop #applyColumn #giveContent:hover { background-image: none; }
+	#homepageTop #applyColumn #applyContent img, #homepageTop #applyColumn #giveContent img { display: inline-block; }
 	#homepageTop #homepageRotator { float: none; width: 100%; height: auto; padding-top: 36%; }
 	#homepageTop #homepageRotator .rotatorItem .smallerSmarter { top: auto; bottom: 112px; }
 	#homepageTop #homepageRotator .rotatorItem .rotatorTitle { top: auto; bottom: 70px; }
@@ -86,12 +80,15 @@
 	#videoPlayerContainer #videoPlayer.vertical { width: 100%; left: 0px; height: auto; top: 50%; } /* set margin-top */
 	#videoPlayerContainer #videoPlayer.horizontal { width: auto; height: 100%; left: 50%; top: 0px; } /* set margin-left */
 	#videoPlayerContainer #videoPlayer.horizontal img { width: auto; height: 100%; }
-	#homepageTop #actionBar { float: none; width: auto; }
+	#homepageTop #actionBar { float: none; width: auto; padding-top: 20px; }
 	#homepageTop #actionBar .actionItem { float: none; width: auto; border: none; height: auto; padding: 0px 20px; margin-bottom: 20px; }
-	#homepageTop #actionBar .actionItem .actionTitle { border-bottom: none; background-color: #ffffff; border: 1px solid #cccccc; padding: 15px 10px 15px 96px; background-position: 34px center; font-size: 1.4em; position: static; top: 0px; left: 0px; border-bottom: none; }
+	#homepageTop #actionBar .actionItem .actionTitle { border-bottom: none; background-color: #ffffff; border: 1px solid #cccccc; padding: 25px 10px 25px 96px; background-position: 25px center; background-size: 65px; font-size: 1.4em; position: static; top: 0px; left: 0px; border-bottom: none; }
+	#homepageTop #actionBar .actionItem .actionLink { display: none; }
+	#homepageTop #actionBar #sendMeInfo.actionItem { width: auto; background-image: none; }
+	/*#homepageTop #actionBar #sendMeInfo.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_send_me_info.png'); }
 	#homepageTop #actionBar #findMyMajor.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_major.png'); }
 	#homepageTop #actionBar #visitCampus.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_map.png'); } 
-	#homepageTop #actionBar #whatWillItCost.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_cost.png'); }
+	#homepageTop #actionBar #whatWillItCost.actionItem .actionTitle { background-image:url('/media/twu/style-assets/images/homepage/icon_cost.png'); } */
 	#homepageTop #actionBar .actionItem .actionContent { width: auto; font-size: 1em; background-color: #ffffff; border: 1px solid #ccc; border-top: none; padding: 0px 145px 20px 40px; }
 	#homepageTop #actionBar .actionItem .actionButton { margin-left: 0px; left: auto; right: 20px; top: 50%; margin-top: -18px; display: none; }
 	#homepageTop .yellowArrow { display: block;  background-size: cover; height:38px; width: 26px; margin-top: -19px; right: 44px; }

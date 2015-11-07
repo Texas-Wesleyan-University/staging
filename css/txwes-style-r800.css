@@ -52,22 +52,16 @@
 	/* Homepage Elements */
 	
 	#homepageTop { background-color: #FFFFFF; }
-	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; padding: 20px 20px 0px; }
-	#homepageTop #applyColumn #applyYACT { border-bottom: 1px dashed #ccc; }
-	#homepageTop #applyColumn #applyTitle { font-size: 1.4em; background-position: 0px center; padding: 15px 0px 15px 60px; background-color: #ffffff; }
-	#homepageTop #applyColumn #applyContent { background-color: #ffffff; margin-top: 0px; padding: 10px 300px 20px 10px; font-size: 1em; }
-	#homepageTop #applyColumn #applyButton { position: absolute; top: 50%; right: 0px; margin-top: -55px; }
-	#homepageTop #applyColumn #classOption { position: relative; top: 0px; left: 0px; }
-	#homepageTop #applyColumn #classTitle { margin-top: 20px; color: #000000; padding-left: 10px; }
-	#homepageTop #applyColumn #classContent { width: auto; margin-bottom: 20px ; overflow: auto; }
-	#homepageTop #applyColumn #classContent ul { overflow: auto; background-color: #ffffff; width: calc(100% - 300px); }
-	#homepageTop #applyColumn #classContent ul li { float: left; font-size: 1em; width: calc(50% - 30px); padding: 8px 20px 8px 10px; color: #004b8d; }
-	#homepageTop #applyColumn #sendInfoButton { background-repeat: no-repeat; width: 209px; height: 36px; top: 50%; left: auto; bottom: auto; right: 0px; margin-top: -18px; }
-	#homepageTop #applyColumn br { display: none; }
+	#homepageTop #applyColumn { float: none; width: auto; position: relative; top: 0px; left: 0px; overflow: auto; }
+	#homepageTop #applyColumn #applyContent { width: 50%; height: auto; float: left; background-image: none; background-color: #dae4e8; border-bottom: 4px solid #b7cfe2; text-align: center; }
+	#homepageTop #applyColumn #giveContent { width: 50%; height: auto; float: right; background-image: none; background-color: #004b8d; border-bottom: 4px solid #002460; text-align: center; }
+	#homepageTop #applyColumn #applyContent:hover, #homepageTop #applyColumn #giveContent:hover { background-image: none; }
+	#homepageTop #applyColumn #applyContent img, #homepageTop #applyColumn #giveContent img { display: inline-block; }
 	#homepageTop #homepageRotator { float: none; width: 100%; height: auto; padding-top: 36%; }
-	#videoPlayerContainer { top: 223px; left: 10px; height: auto; width: calc(100% - 20px); padding-top: 35%; margin-left: 0px;  }
+	#videoPlayerContainer { top: 128px; left: 10px; height: auto; width: calc(100% - 20px); padding-top: 35.2%; margin-left: 0px;  }
 	#homepageTop #actionBar { float: none; width: auto; border-top: 1px solid #ccc; }
-	#homepageTop #actionBar .actionItem { width: calc(33% - 30px); }
+	#homepageTop #actionBar .actionItem { width: calc(25% - 1px); min-height: 260px; }
+	#homepageTop #actionBar #sendMeInfo.actionItem { width: 25%; }
 	#homepageTop #actionBar .actionItem .actionTitle {  }
 	#homepageTop #actionBar #findMyMajor.actionItem .actionTitle {  }
 	#homepageTop #actionBar #visitCampus.actionItem .actionTitle {  } 
