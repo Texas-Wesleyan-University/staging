@@ -703,7 +703,7 @@ form .instructions { margin-bottom: 10px; }
 #contentCT.threeCol .horizontalNewsList .newsItem { width: 33%; }
 .horizontalNewsList .newsItem .image, .horizontalNewsList .newsItem .title { width: 90%; margin: 0px auto; color: #333; }
 .horizontalNewsList .newsItem .image { min-height: 100px; background-image: url('/media/twu/style-assets/images/news-placeholder.png'); background-repeat: no-repeat; background-position: center; background-size: contain; position: relative; top: 0px; left: 0px; vertical-align: top; }
-.horizontalNewsList .newsItem .title { padding-top: 14px; font-weight: bold; }
+.horizontalNewsList .newsItem .title { font-weight: bold; }
 .horizontalNewsList .newsItem .title a { color: inherit; }
 .horizontalNewsList .newsItem .image { position: relative; top: 0px; left: 0px; }
 .horizontalNewsList .newsItem .image img { display: block; vertical-align: top; }
