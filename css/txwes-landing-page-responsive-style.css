@@ -1,0 +1,183 @@
+@media screen and (min-width:769px) and (max-width:1019px) {
+	#outerCT { width: calc(100% - 20px); margin-left: auto; margin-right: auto; position: relative; top: 0px; left: 0px; }
+	
+	#headerTop { border: none; width: 100%; }
+	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; }
+	
+	#contentCT { width: 100%; margin-bottom: 10px; }
+	
+	#footerCT { width: 100%; margin-bottom: 0px; }
+
+	#footerCT #logoCT { float: none; width: calc(100% - 160px); margin-left: auto; margin-right: auto; overflow: auto; }
+	#footerCT #logoCT #footerLogo { float: left; margin-top: 20px; }
+	#footerCT #logoCT #footerSmarter { float: left; margin-top: 35px; margin-left: calc(50% - 130px); }
+	#footerCT #footerContactInfo { float: left; width: calc(50% - 80px); margin-left: 40px; }
+	#footerCT #footerSocial { float: left; width: calc(50% - 120px); }
+	
+	#footerCT #copyright { width: calc(100% - 40px); }
+	
+	#contentCT { position: relative; top: 0px; left: 0px; }
+	#contentCT #centerCol { width: calc(100% - 456px); border-right: none; float: left; }
+	#contentCT #rightCol { width: 292px; padding: 0px; position: relative; left: 0px; }
+	#contentCT.oneCol #centerCol { width: calc(100% - 104px); border-right: none; float: left; }
+	
+	#topBanner .lpTextBanner .text { max-width: 44%; }
+	
+	/* Upcoming Events */
+	
+	#upcomingEventsList {border: none;}
+	#upcomingEventsList #upcomingEventsHeader {background-image:none;background-color:#004b8d;font-size:1.1em;height:auto;text-indent: 10px;padding:5px 0px;color:#ffffff;}
+	#upcomingEventsList .upcomingEvent {margin-bottom:10px;border-bottom:1px dashed #ccc;padding-bottom:10px;}
+	#upcomingEventsList #upcomingEventsListSpacer { display: none; }
+	#upcomingEventsList #upcomingEventsListAllEvents {height:15px;padding:15px 0px;text-align:center;width:90%; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
+	#upcomingEventsList #upcomingEventsListAllEvents img {float:none;display:inline-block;}
+	
+	/* Content Block */
+	
+	.contentBlock { background-image: none; padding: 0px; }
+	.contentBlock .contentBlockHeader { border-bottom: none; color: #000000; }
+	
+	/* Featured Content with Image */
+	
+	.featuredContent .image { display: none; }
+	.featuredContent .title { background-image: none; background-color: #004b8d; color: #ffffff; }
+	.featuredContent .title a, .featuredContent .title a:visited { color: inherit; }
+	.featuredContent.varOne .title { background-image: none; background-color: #004b8d; color: #ffffff; }
+	.featuredContent.noImage .title { padding-left: 10px; }
+	
+	/* Featured Content Block */
+	
+	.featuredContentBlockHeader { background-image: none; border: none; padding: 5px 10px; background-color: #c4e4f7; }
+	.featuredContentBlock { background-image: none; border: none; padding: 20px; position: relative; top: 0px; left: 0px; }
+	
+	/* Captioned Image */
+	.captionedImage img { width: 100% !important; float: none !important; }
+	.captionedImage .caption { width: auto !important; padding: 10px !important; float: none !important; text-align: left !important; }
+	
+}
+
+@media screen and (max-width:768px) {
+	#outerCT { width: 100%; min-width: 320px; position: relative; top: 0px; left: 0px; }
+	
+	#headerTop { border: none; width: 100%; overflow: auto; height: auto; padding-top: 76px; background-color: rgba(25,25,25,0.4); }
+	#headerTop #logo { width: 119px; height: 46px; top: 12px; left: 10px; margin-top: 0px; background-image: url('http://cms.txwes.edu/media/twu/style-assets/images/university-logo-320.png'); }
+	
+	#mobileMenuButton { display: block; }
+	
+	#headerCT #menu { position: static; top: 0px; right: 0px; margin: 0px; width: auto; color: #333333; background-color: #f3f3f3; display: none; }
+	#headerCT #menu ul { padding: 0px 10px; }
+	#headerCT #menu ul li { font-size: 0.9em; padding: 10px 0px; width: auto; border-bottom: 1px solid #ccc; border-right: none; float: none; }
+	#headerCT #menu ul li:first-child { padding-top: 12px; }
+	#headerCT #menu ul li:last-child { padding-bottom: 12px; border: none; }
+	
+	#contentCT { width: 100%; margin-bottom: 0px; position: relative; top: 0px; left: 0px; overflow:visible; }
+	
+	#footerCT { width: 100%; margin-bottom: 0px; }
+
+	#footerCT #logoCT { float: none; width: 240px; margin-left: auto; margin-right: auto; overflow: auto; }
+	#footerCT #logoCT #footerLogo { float: none; margin-top: 10px; }
+	#footerCT #logoCT #footerSmarter { float: inital; margin-top: 30px; }
+	#footerCT #footerContactInfo { float: none; width: 240px; margin-left: auto; margin-right: auto; padding: 0px 40px; }
+	#footerCT #footerContactInfo .contactMap { float: none; width: 240px; margin-right: 0px; margin-bottom: 10px; }
+	#footerCT #footerSocial { float: none; width: 240px; margin-left: auto; margin-right: auto; }
+	#footerCT #footerSocial .socialButton.facebook { background-image: url('/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+	#footerCT #footerSocial .socialButton.twitter { background-image: url('/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+	#footerCT #footerSocial .socialButton.youtube { background-image: url('/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+	
+	#footerCT #copyright { width: calc(100% - 40px); }
+	
+	#contentCT { position: relative; top: 0px; left: 0px; }
+	#contentCT #centerCol, #contentCT.oneCol #centerCol { width: auto; border-right: none; margin: 0px; float: none; padding: 0px 10px; }
+	#contentCT #rightCol { float: none; width: auto; padding: 0px; margin: 10px; overflow: auto; }
+	
+	#topBanner .lpTextBanner .text { font-size: 1.5em; max-width: 65%; }
+	
+	/* Content Block */
+	
+	.contentBlock { background-image: none; padding: 0px; }
+	.contentBlock .contentBlockHeader { border-bottom: none; color: #000000; }
+	
+	/* Featured Content with Image */
+	
+	.featuredContent .image { display: none; }
+	.featuredContent .title { background-image: none; background-color: #004b8d; color: #ffffff; }
+	.featuredContent .title a, .featuredContent .title a:visited { color: inherit; }
+	.featuredContent.varOne .title { background-image: none; background-color: #004b8d; color: #ffffff; }
+	.featuredContent.noImage .title { padding-left: 10px; }
+	
+	/* Featured Content Block */
+	
+	.featuredContentBlockHeader { background-image: none; border: none; padding: 5px 10px; background-color: #c4e4f7; }
+	.featuredContentBlock { background-image: none; border: none; padding: 20px; position: relative; top: 0px; left: 0px; }
+	
+	/* Buttons */
+	
+	.button { font-size: 1.5em; }
+	.button.go { min-width: 0px; width: calc(100% - 35px); }
+	
+	/* CSS Table Layout */
+	
+	.table { display: block; }
+	.table .row { display: block; padding: 10px 5px; border-top: 1px dashed #ccc; overflow: auto; width: auto; }
+	.table .row.header { display: none; }
+	.table .row .cell { display: block; padding: 8px 0px; border: none; }
+	.table .row .cell:before { display: inline-block; width: 50%; content: attr(data-head)": "; }
+	
+	/* CSS List Table Layout */
+
+	.table.list { border-top: 1px solid #ccc; border-left: none; display: block; }
+	.table.list .row { display: block; padding: 0px; border: none; }
+	.table.list .row:hover { background-color: #f3f3f3; }
+	.table.list .row .cell { border-top: none; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; background-color: #f3f3f3; width: auto; padding: 6px 12px; display: block; }
+	.table.list .row .cell:before { display: none; }
+	.table.list .row .cell.empty { display: none; }
+	
+	/* CSS Data Table */
+
+	.table.data { border: 1px solid #ccc; display: block; }
+	.table.data .row { display: block; border: none; padding: 0px; }
+	.table.data .row .cell { border: none; border-bottom: 1px solid #ccc; background-color: #f3f3f3; padding: 10px 10px; display: block; overflow: auto; }
+	.table.data .row .cell:first-child { border-right: none; background-color: #ffffff; width: auto; }
+	.table.data .row .cell:before { display: none; }
+	.table.data .row:hover { background-color: transparent; }
+	.table.data .row:hover .cell:first-child { background-color: #d5e5ef; }
+	.table.data .row:last-child .cell { border-bottom: 1px solid #cccccc; }
+	.table.data .row:last-child .cell:last-child { border-bottom: none; }
+	.table.data .row .cell ul { margin: 0px; padding: 5px 15px; }
+	
+	/* CTA Options */
+	
+	.ctaOptionsCT { display: block; border: none; background-color: transparent; width: 100%; font-size: 1em; }
+	.ctaOptionsCT .ctaOptions { display: block; }
+	.ctaOptionsCT.vision .ctaOption, .ctaOptionsCT.five .ctaOption, .ctaOptionsCT.four .ctaOption, .ctaOptionsCT.president .ctaOption, .ctaOptionsCT .ctaOption { display: block; background-color: #ffffff; border: 1px solid #d3d3d3; width: calc(100% - 77px); padding: 13px 5px 13px 70px; margin-bottom: 20px; height: auto; background-position: 10px center; }
+	.ctaOptionsCT .ctaOption:last-child { border: 1px solid #d3d3d3; margin-bottom: 0px; }
+	.ctaOptionsCT .ctaOption .optionArrow, .ctaOptionsCT .ctaOption .arrow { display: block; }
+		
+	.ctaOptionsCT .ctaOption.academic { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/icon_major.png'); }
+	.ctaOptionsCT .ctaOption.dining { background-image:url('/media/twu/style-assets/images/buttons/cta_dining_mobile.png'); }
+	.ctaOptionsCT .ctaOption.graduate { background-image:url('/media/twu/style-assets/images/buttons/cta_graduate_mobile.png'); background-size: 36px; padding-left: 50px; }
+	.ctaOptionsCT .ctaOption.housing { background-image:url('/media/twu/style-assets/images/buttons/cta_housing_mobile.png'); }
+	.ctaOptionsCT .ctaOption.location { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/icon_map.png'); }
+	.ctaOptionsCT .ctaOption.money { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/icon_cost.png'); }
+	.ctaOptionsCT .ctaOption.undergraduate { background-image:url('/media/twu/style-assets/images/buttons/cta_undergraduate_mobile.png'); background-size: 36px; padding-left: 50px; }
+	
+	/* Right Column Mobile Content */
+
+	.rcMobile-d, .desktop-only { display: none; }
+	.rcMobile-m, .mobile-only { display: block; }
+	
+	/* Horizontal News List */
+	
+	#contentCT.threeCol .horizontalNewsList .newsItem, .horizontalNewsList .newsItem { width: 100%; float: none; margin: 0px 0px 20px; }
+	.horizontalNewsList .newsItem .image, .horizontalNewsList .newsItem .title { width: 100%; }
+	.horizontalNewsList .newsItem .image img:first-child { width: 100%; }
+	
+	/* Signature Quote */
+	
+	.signatureQuoteCT.president { padding-bottom: 185px; }
+	.signatureQuoteCT .signatureQuote { width: 100%; }
+	
+	/* Captioned Image */
+	.captionedImage img { width: 100% !important; float: none !important; }
+	.captionedImage .caption { width: auto !important; padding: 10px !important; float: none !important; text-align: left !important; }
+}

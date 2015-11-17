@@ -31,7 +31,8 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 
 /* Trade Gothic Specialty Font */
 
-.gothic { font-family: 'Oswald', 'Trade Gothic', Arial, Helvetica, sans-serif; }
+.gothic { font-family: 'Oswald', 'Trade Gothic', Arial, Helvetica, sans-serif; letter-spacing: 1px; }
+.oswald { font-family: 'Oswald', 'Trade Gothic', Arial, Helvetica, sans-serif; letter-spacing: 1px; }
 
 /* Page Layouts and Styles */
 
@@ -241,7 +242,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #homepageBottom #homepageNews #homepageNewsList .homepageNewsItem { float: left; margin-right: 30px; width: 170px; font-size: 0.8em; }
 #homepageBottom #homepageNews #homepageNewsList .homepageNewsItem:last-child { margin-right: 0px; }
 #homepageBottom #homepageNews #homepageNewsList .homepageNewsItem img { width: 170px; margin-bottom: 8px; }
-#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem .category { width: 90%; margin: 8px auto 10px; font-size: 0.8em; font-family: 'Oswald'; text-transform: uppercase; }
+#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem .category { width: 90%; margin: 0px 0px 5px 0px; font-size: 0.9em; font-family: 'Oswald'; text-transform: uppercase; color: #004b8d; }
 
 #homepageBottom #homepageEvents { float: right; width: 340px; padding: 10px 20px; }
 #homepageBottom #homepageEvents #homepageEventsTitle { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/events.png'); background-repeat: no-repeat; background-position: left center; padding: 10px 0px 10px 120px; margin-bottom: 10px; }

@@ -1,0 +1,92 @@
+body { margin: 0px; padding: 0px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/bg.png'); font-family: Arial, sans-serif; min-width: 320px; color: #666; }
+
+/* Global Styles for Basic Elements */
+
+a { color: #004b8d; text-decoration: none; }
+a:visited { color: #004b8d; }
+a img { border: none; }
+
+/* Fix for images that are coded as <img src=<t4 />/> and there isn't an image on the content type */
+
+img[src=""] { display: none; }
+
+/* Fix for oversized images on pages for responsive */
+
+#centerCol img, #rightCol img { max-width: 100% !important; height: auto !important; }
+#imageView_container img { max-width: none !important; }
+
+/* iFrame and other embedded objects quick fix */
+
+#centerCol iframe, #centerCol object, #centerCol embed, #centerCol video { width: 100% !important; }
+
+/* global UL style */
+
+#centerCol ul, #rightCol ul { list-style-image: url('https://txwes.edu/media/twu/style-assets/images/bullets/First-Level.png'); }
+#centerCol ul ul, #rightCol ul ul { list-style-image: url('https://txwes.edu/media/twu/style-assets/images/bullets/Second-Level.png'); }
+#centerCol ul ul ul, #rightCol ul ul ul { list-style-image: url('https://txwes.edu/media/twu/style-assets/images/bullets/Third-Level.png'); }
+#centerCol ul ul ul ul, #rightCol ul ul ul { list-style-image: url('https://txwes.edu/media/twu/style-assets/images/bullets/Fourth-Level.png'); }
+
+/* Trade Gothic Specialty Font */
+
+.gothic { font-family: 'Oswald', 'Trade Gothic', Arial, Helvetica, sans-serif; letter-spacing: 1px; }
+
+/* Page Layouts and Styles */
+
+#outerCT { width: 1000px; margin-left: auto; margin-right: auto; }
+
+#headerCT { color: #ffffff; position: relative; top: 0px; left: 0px; }
+#headerCT a, #headerCT a:visited { color: inherit; }
+
+#headerTop { width:1000px; height: 92px; position: relative; top: 0px; left: 0px; overflow: visible; }
+
+#headerTop #logo { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/logo.png'); background-repeat: no-repeat; background-size: contain; width: 276px; height: 63px; position: absolute; top: 50%; left: 0px; margin-top: -33px; }
+
+#headerCT #menu { font-size: 0.8em; color: #ffffff; position: absolute; top: 50%; right: 0px; margin-top: -.7em; }
+#headerCT #menu ul { list-style-type: none; list-style-image: none; margin: 0px; padding: 0px; }
+#headerCT #menu ul li { float: left; border-right: 1px solid #ffffff; padding: 0px 15px; }
+#headerCT #menu ul li:last-child { border: none; padding-right: 0px; }
+#headerCT #menu.open { display: block; }
+
+#mobileMenuButton { background-image: url('https://txwes.edu/media/twu/style-assets/images/mobile-menu.png'); height: 44px; width: 92px; position:absolute; right: 24px; top: 16px; cursor: pointer; display: none; }
+#mobileMenuButton.active { background-image: url('https://txwes.edu/media/twu/style-assets/images/mobile-menu-active.png'); }
+
+#footerCT { background-color: #191919; color: #ffffff; width: 1000px; position: relative; top: 0px; left: 0px; padding: 0px; margin-bottom: 42px; overflow: auto; }
+#footerCT a, #footerCT a:visited { color: inherit; }
+#footerCT #logoCT { float: left; width: 253px; padding: 20px 40px; }
+#footerCT #logoCT #footerLogo { margin-top: 10px; }
+#footerCT #logoCT #footerSmarter { margin-top: 20px; }
+#footerCT #footerContactInfo { float: left; width: 254px; padding: 20px 40px; }
+#footerCT #footerContactInfo .contactTitle { font-size: 1.2em; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+#footerCT #footerContactInfo .contactMap { float: left; margin-right: 15px; width: 95px; }
+#footerCT #footerContactInfo .contactInfo { font-size: 0.9em; overflow: auto; }
+#footerCT #footerSocial { float: left; width: 253px; padding: 20px 40px; overflow: auto; }
+#footerCT #footerSocial .socialTitle { font-size: 1.2em; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+#footerCT #footerSocial .socialButton { margin-right: 20px; float: left; height: 51px; width: 51px; }
+#footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/facebook.png'); }
+#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+#footerCT #footerSocial .socialButton.twitter { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter.png'); }
+#footerCT #footerSocial .socialButton.twitter:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+#footerCT #footerSocial .socialButton.youtube { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube.png'); }
+#footerCT #footerSocial .socialButton.youtube:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+
+#footerCT #copyright { width: 960px; border-top: 1px solid rgba(255,255,255,0.5); color: rgba(255,255,255,0.5); text-align: center; font-size: 0.8em; padding: 15px 0px; float: left; margin: 0px 20px; }
+#footerCT #copyright #privacyPolicy { color: #ffffff; border-left: 1px solid rgba(255,255,255,0.5); padding-left: 10px; margin-left: 10px; }
+
+#goToCT { display: none; }
+
+#topBanner { width: 100%; background-color: #FFFFFF; clear: both; }
+#topBanner img { width: 100%; }
+
+#contentCT { width: 1000px; background-color: #ffffff; margin: 0; padding: 0; overflow: auto; }
+#contentCT #centerCol { width: 544px; float: left; margin: 42px 60px 70px 52px; }
+#contentCT #rightCol { width: 292px; float: right; padding: 0px; position: relative; top: 0px; left: 0px; min-height: 1px; margin: 42px 52px 70px 0px; }
+
+#contentCT.oneCol #centerCol { width: 896px; float: none; margin: 42px 52px 70px 52px; }
+
+#bottomBanner { width: 100%; background-color: #191919; clear: both; }
+#bottomBanner img { width: 100%; }
+
+@font-face { font-family: 'tradeGothic'; src: url('https://txwes.edu/media/twu/style-assets/font/TRADE-GOTHIC-BOLD-CONDENSED-NO-20.TTF'); }
+
+#topBanner .lpTextBanner { background-image: url('https://txwes.edu/media/twu/style-assets/images/landing_page_blue_banner.png'); min-height: 172px; background-repeat: no-repeat; overflow: auto; }
+#topBanner .lpTextBanner .text { font-family: 'Oswald', 'tradeGothic', Impact, Charcoal, sans-serif ; font-size: 2em; color: #002460; padding: 20px 44px 20px 26px; background-color: #fed000; margin-top: 22px; max-width: 55%; display: inline-block; text-transform: uppercase; letter-spacing: 1px; }

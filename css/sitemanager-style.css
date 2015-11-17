@@ -1,0 +1,13 @@
+body.inner { background-image: url('/media/twu/style-assets/images/homepage/bg.png') !important; background-repeat: repeat !important; }
+#header h1.logo { background-image: url('/media/twu/style-assets/images/homepage/logo.png') !important; height: 62px !important; }
+#ft { background-color: #191919 !important; overflow: auto !important; padding-bottom: 20px !important; color: #ffffff !important; }
+#ft a { color: #ffffff !important; }
+.ft-tools { background-color: #191919 !important; background-image: none !important; color: #ffffff !important; }
+.ft-tools a { color: #ffffff !important; }
+.ft-toolsL { background-image: none !important; }
+.mm li.start { display: none !important; }
+.mm li.end { display: none !important; }
+.head-tools { background-image: none !important; }
+.head-tools ul li.end { background-image: none !important; }
+.wdgt-body a { color: #004b8d !important; }
+#main .main-topClear { background-image: none !important; }
