@@ -349,3 +349,8 @@ h1.pageTitle { float: left; width: 726px; margin:0px; padding: 13px 0px 13px 50p
 #contactInfoCT .spacer { border-top: 1px solid #ccc; background-color: #ffffff; height: 1px; width: 100%; margin-top: 10px; margin-bottom: 10px; }
 #contactInfoCT h5 { margin: 0; padding: 0; font-size: 1.2em; font-weight: normal; color: #002460; }
 #contentCT.noNav #contactInfoCT { float: right; clear: right; margin-right: 14px; background-color: #f3f3f3; }
+
+/* 125 flag and bar */
+
+.onetwentyfivebar { width: 100%; height: 4px; background-color: #f3f3f3; position: absolute; top: 0px; left: 50%; margin-left: -50%; }
+.onetwentyfiveflag { width: 61px; height: 92px; position: absolute; top: 0px; left: 50%; margin-left: 375px; background-image: url('/media/twu/style-assets/images/homepage/125flag_desktop.png'); background-repeat: no-repeat; }

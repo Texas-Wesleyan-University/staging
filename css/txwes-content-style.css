@@ -822,3 +822,8 @@ form .instructions { margin-bottom: 10px; }
 .newsEvents2ColCt .verticalNewsList { float: left; width: 460px; }
 .newsEvents2ColCt .verticalNewsList .news-header { border-top: none; padding-top: 0px; font-size: 2em; }
 .newsEvents2ColCt #upcomingEventsList { float: right; width: 224px; }
+
+/* Footer Banner */
+
+.footer-banner { width: 1000px; max-width: 100%; }
+.footer-banner img { width: 100%; }
