@@ -41,7 +41,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #headerCT { color: #ffffff; position: relative; top: 0px; left: 0px; }
 #headerCT a, #headerCT a:visited { color: inherit; }
 
-#headerTop { width:1000px; height: 92px; border-bottom: 4px solid #fed000; position: relative; top: 0px; left: 0px; overflow: visible; }
+#headerTop { width:1000px; height: 100px; border-bottom: 4px solid #fed000; position: relative; top: 0px; left: 0px; overflow: visible; }
 
 #headerTop #logo { background-image: url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/logo_125.png'); background-repeat: no-repeat; background-size: contain; width: 276px; height: 63px; position: absolute; top: 50%; left: 0px; margin-top: -33px; background-position: left; }
 
@@ -75,7 +75,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #mobileMenuButton { background-image: url('https://txwes.edu/media/twu/style-assets/images/mobile-menu.png'); height: 44px; width: 92px; position:absolute; right: 64px; top: 15px; cursor: pointer; display: none; }
 #mobileMenuButton.active { background-image: url('https://txwes.edu/media/twu/style-assets/images/mobile-menu-active.png'); }
 
-#searchCT { position: absolute; top: 25px; right: 370px; }
+#searchCT { position: absolute; top: 30px; right: 370px; }
 #searchCT .searchBar { background-color: #ffffff; height: 32px; width: 195px; float: left; padding: 8px 15px 0px; }
 #searchCT .searchBar input { background: none; border: none; width: 195px; font-size: 1.1em; color: #666; }
 #searchCT .searchBar input:focus { outline: none; }
@@ -353,4 +353,4 @@ h1.pageTitle { float: left; width: 726px; margin:0px; padding: 13px 0px 13px 50p
 /* 125 flag and bar */
 
 .onetwentyfivebar { width: 100%; height: 4px; background-color: #f3f3f3; position: absolute; top: 0px; left: 50%; margin-left: -50%; }
-.onetwentyfiveflag { width: 61px; height: 92px; position: absolute; top: 0px; left: 50%; margin-left: 375px; background-image: url('/media/twu/style-assets/images/homepage/125flag_desktop.png'); background-repeat: no-repeat; }
+.onetwentyfiveflag { width: 61px; height: 92px; position: absolute; top: 0px; left: 50%; margin-left: -213px; background-image: url('/media/twu/style-assets/images/homepage/125flag_desktop.png'); background-repeat: no-repeat; }
