@@ -125,7 +125,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 .slider-banner #slider-banner-icon { height:98px; width:112px; position:absolute; top:0px; left:0px; background-size: cover; background-repeat: no-repeat; }
 .slider-banner #slider-banner-action { height:36px; width:149px; position:absolute; top:50%; right:25px; margin-top:-18px; background-size: contain; background-image:url('http://cms.txwes.edu/media/twu/style-assets/images/emergency-action.png'); background-repeat: no-repeat; }
 .slider-banner .slider-banner-content { position:absolute; top:15px; left:142px; color:#333; padding-right: 224px; }
-.slider-banner .slider-banner-content .slider-banner-title { font-size:1.4em; text-transform: uppercase; font-family: 'Oswald'; }
+.slider-banner .slider-banner-content .slider-banner-title { font-size:1.1em; text-transform: uppercase; font-family: 'Oswald'; }
 .slider-banner .slider-banner-content .slider-banner-title .slider-banner-date { font-size:.7em; color:#333; padding-left:10px; font-weight: normal; font-family: Arial, Helvetica, sans-serif; }
 .slider-banner .slider-banner-content a { color:inherit; }
 
@@ -202,7 +202,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #homepageTop #homepageRotator #rotatorControls .rotatorBullet.current { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorYellowDot.png'); }
 #homepageTop #homepageRotator #rotatorLeft { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; left: 0px; }
 #homepageTop #homepageRotator #rotatorRight { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; right: 0px; }
-#videoPlayerContainer { display: none; position: absolute; width: 750px; height: 270px; z-index: 999; top:142px; left: 50%; margin-left: -250px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageVideoBackground.png'); }
+#videoPlayerContainer { display: none; position: absolute; width: 750px; height: 270px; z-index: 999; top:150px; left: 50%; margin-left: -250px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageVideoBackground.png'); }
 #videoPlayerContainer #videoPlayer { width: 432px; height: 270px; position: absolute; top: 50%; left: 50%; margin-top: -135px; margin-left: -216px; }
 #videoPlayerContainer #videoPlayer img { width: 100%; }
 #videoPlayerContainer #videoPlayer iframe { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
