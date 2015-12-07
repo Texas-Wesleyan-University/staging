@@ -78,10 +78,10 @@ img[src=""] { display: none; }
 #topBanner img { width: 100%; }
 
 #contentCT { width: 1000px; background-color: #ffffff; margin: 0; padding: 0; overflow: auto; }
-#contentCT #centerCol { width: 544px; float: left; margin: 42px 60px 70px 52px; }
-#contentCT #rightCol { width: 292px; float: right; padding: 0px; position: relative; top: 0px; left: 0px; min-height: 1px; margin: 42px 52px 70px 0px; }
+#contentCT #centerCol { width: 544px; float: left; margin: 32px 60px 70px 52px; }
+#contentCT #rightCol { width: 292px; float: right; padding: 0px; position: relative; top: 0px; left: 0px; min-height: 1px; margin: 32px 52px 70px 0px; }
 
-#contentCT.oneCol #centerCol { width: 896px; float: none; margin: 42px 52px 70px 52px; }
+#contentCT.oneCol #centerCol { width: 896px; float: none; margin: 32px 52px 70px 52px; }
 
 #bottomBanner { width: 100%; background-color: #191919; clear: both; }
 #bottomBanner img { width: 100%; }

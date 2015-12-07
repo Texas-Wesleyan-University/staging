@@ -95,9 +95,9 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #footerCT #footerContactInfo .contactInfo { font-size: 0.9em; overflow: auto; }
 #footerCT #footerSocial { float: left; width: 253px; padding: 20px 40px; overflow: auto; }
 #footerCT #footerSocial .socialTitle { font-size: 1.2em; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
-#footerCT #footerSocial .socialButton { margin-right: 20px; float: left; height: 51px; width: 51px; }
-#footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/facebook.png'); }
-#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+#footerCT #footerSocial .socialButton { margin-right: 20px; float: left; height: 40px; width: 40px; background-repeat: no-repeat; background-position: center; background-size: contain; }
+#footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb.png'); }
+#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb_hover.png'); }
 #footerCT #footerSocial .socialButton.twitter { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter.png'); }
 #footerCT #footerSocial .socialButton.twitter:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_hover.png'); }
 #footerCT #footerSocial .socialButton.youtube { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube.png'); }
