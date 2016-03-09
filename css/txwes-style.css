@@ -43,7 +43,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 
 #headerTop { width:1000px; height: 100px; border-bottom: 4px solid #fed000; position: relative; top: 0px; left: 0px; overflow: visible; }
 
-#headerTop #logo { background-image: url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/logo_125.png'); background-repeat: no-repeat; background-size: contain; width: 276px; height: 63px; position: absolute; top: 50%; left: 0px; margin-top: -33px; background-position: left; }
+#headerTop #logo { background-image: url('https://cms.txwes.edu/media/twu/style-assets/images/homepage/logo.png'); background-repeat: no-repeat; background-size: contain; width: 276px; height: 63px; position: absolute; top: 50%; left: 0px; margin-top: -33px; background-position: left; }
 
 #headerTop #selfSelect { height: 40px; width: 156px; background-color: #004b8d; background-image: url('https://txwes.edu/media/twu/style-assets/images/i-am-a-button.png'); background-repeat: no-repeat; background-size: contain; position: absolute; top: 50%; margin-top: -20px; right: 0px; cursor: pointer; z-index: 1000; }
 #headerTop #selfSelect #selfSelectTitle { line-height: 40px; margin: 0px 35px 0px 60px; white-space: nowrap; }
@@ -95,13 +95,17 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #footerCT #footerContactInfo .contactInfo { font-size: 0.9em; overflow: auto; }
 #footerCT #footerSocial { float: left; width: 253px; padding: 20px 40px; overflow: auto; }
 #footerCT #footerSocial .socialTitle { font-size: 1.2em; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
-#footerCT #footerSocial .socialButton { margin-right: 20px; float: left; height: 40px; width: 40px; background-repeat: no-repeat; background-position: center; background-size: contain; }
+#footerCT #footerSocial .socialButton { margin-right: 10px; margin-bottom: 10px; float: left; height: 40px; width: 40px; background-repeat: no-repeat; background-position: center; background-size: contain; }
 #footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb.png'); }
-#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb_hover.png'); }
+#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb_h.png'); }
 #footerCT #footerSocial .socialButton.twitter { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter.png'); }
-#footerCT #footerSocial .socialButton.twitter:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+#footerCT #footerSocial .socialButton.twitter:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_h.png'); }
 #footerCT #footerSocial .socialButton.youtube { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube.png'); }
-#footerCT #footerSocial .socialButton.youtube:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+#footerCT #footerSocial .socialButton.youtube:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube_h.png'); }
+#footerCT #footerSocial .socialButton.linkedin { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/linkedin.png'); }
+#footerCT #footerSocial .socialButton.linkedin:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/linkedin_h.png'); }
+#footerCT #footerSocial .socialButton.instagram { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/instagram.png'); }
+#footerCT #footerSocial .socialButton.instagram:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/instagram_h.png'); }
 
 #footerCT #copyright { width: 960px; border-top: 1px solid rgba(255,255,255,0.5); color: rgba(255,255,255,0.5); text-align: center; font-size: 0.8em; padding: 15px 0px; float: left; margin: 0px 20px; }
 #footerCT #copyright #privacyPolicy { color: #ffffff; border-left: 1px solid rgba(255,255,255,0.5); padding-left: 10px; margin-left: 10px; }
@@ -202,7 +206,7 @@ img[src*="googleads"] { display: none; } /* fix chrome bug that displays trackin
 #homepageTop #homepageRotator #rotatorControls .rotatorBullet.current { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorYellowDot.png'); }
 #homepageTop #homepageRotator #rotatorLeft { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; left: 0px; }
 #homepageTop #homepageRotator #rotatorRight { cursor: pointer; display: none; height: 50px; width: 50px; background-color: rgba(19,19,19,0.7); position: absolute; top: 50%; margin-top: -25px; right: 0px; }
-#videoPlayerContainer { display: none; position: absolute; width: 750px; height: 270px; z-index: 999; top:150px; left: 50%; margin-left: -250px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageVideoBackground.png'); }
+#videoPlayerContainer { display: none; position: absolute; width: 750px; height: 270px; z-index: 999; top:270px; left: 50%; margin-left: -250px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageVideoBackground.png'); }
 #videoPlayerContainer #videoPlayer { width: 432px; height: 270px; position: absolute; top: 50%; left: 50%; margin-top: -135px; margin-left: -216px; }
 #videoPlayerContainer #videoPlayer img { width: 100%; }
 #videoPlayerContainer #videoPlayer iframe { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
@@ -352,5 +356,10 @@ h1.pageTitle { float: left; width: 726px; margin:0px; padding: 13px 0px 13px 50p
 
 /* 125 flag and bar */
 
-.onetwentyfivebar { width: 100%; height: 4px; background-color: #f3f3f3; position: absolute; top: 0px; left: 50%; margin-left: -50%; }
-.onetwentyfiveflag { width: 61px; height: 92px; position: absolute; top: 0px; left: 50%; margin-left: -213px; background-image: url('/media/twu/style-assets/images/homepage/125flag_desktop.png'); background-repeat: no-repeat; }
+.onetwentyfivebar { display: none; z-index: 99; width: 100%; height: 4px; background-color: #f3f3f3; position: absolute; top: 0px; left: 50%; margin-left: -50%; }
+.onetwentyfiveflag { display: none; z-index: 99; width: 61px; height: 92px; position: absolute; top: 0px; left: 50%; margin-left: -213px; background-image: url('/media/twu/style-assets/images/homepage/125flag_desktop.png'); background-repeat: no-repeat; }
+.onetwentyfivemobileflag { display: none; z-index: 99; width: 61px; height: 52px; position: absolute; top: 23px; left: 0px; margin-left: 250px; background-image: url('/media/twu/style-assets/images/homepage/125flag_desktop.png'); background-repeat: no-repeat; background-position: center -10px; }
+.onetwentyfivebanner { width: 100%; }
+.onetwentyfivebanner.tablet { display: none; }
+.onetwentyfivebanner.mobile { display: none; }
+.onetwentyfivebanner img { vertical-align: top; width: 100%; }

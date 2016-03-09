@@ -43,9 +43,11 @@
 	#footerCT #logoCT #footerSmarter { float: left; margin-top: 35px; margin-left: 40px; }
 	#footerCT #footerContactInfo { float: none; width: 440px; margin-left: auto; margin-right: auto; }
 	#footerCT #footerSocial { float: none; width: 440px; margin-left: auto; margin-right: auto; }
-	#footerCT #footerSocial .socialButton.facebook { background-image: url('/media/twu/style-assets/images/homepage/facebook_hover.png'); }
-	#footerCT #footerSocial .socialButton.twitter { background-image: url('/media/twu/style-assets/images/homepage/twitter_hover.png'); }
-	#footerCT #footerSocial .socialButton.youtube { background-image: url('/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+	#footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb_h.png'); }
+	#footerCT #footerSocial .socialButton.twitter { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_h.png'); }
+	#footerCT #footerSocial .socialButton.youtube { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube_h.png'); }
+	#footerCT #footerSocial .socialButton.linkedin { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/linkedin_h.png'); }
+	#footerCT #footerSocial .socialButton.instagram { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/instagram_h.png'); }
 	
 	#footerCT #copyright { width: calc(100% - 40px); }
 	
@@ -398,4 +400,12 @@
 	
 	.rss-link { padding: 0px; width: calc(100% - 20px); margin: auto; }
 	.rss-link a { display: block; text-align: center; background-color: #ffffff; border: 1px solid #ccc; padding: 7px 0px; }
+	
+	/* 125 Anniversary */
+	
+	.onetwentyfivebar { display: none !important; }
+	.onetwentyfiveflag { display: none !important; }
+	.onetwentyfivemobileflag { display: block; }
+	.onetwentyfivebanner.tablet { display: block; }
+	.onetwentyfivebanner.desktop { display: none; }
 }

@@ -50,9 +50,9 @@
 #emergencyNav .emergencyButton { background-color:#f3f3f3; border:1px solid #ccc; cursor:pointer; padding:10px 10px; float: left; width: 121px; margin-right: 10px; margin-bottom: 10px; overflow: auto; position: relative; top: 0px; left: 0px; }
 #emergencyNav .emergencyButton:nth-child(3n+4) { margin-right: 0px; }
 #emergencyNav .emergencyButton:hover { background-color:#fed000; }
-#emergencyNav .emergencyButton .emergencyIcon { float: left; }
-#emergencyNav .emergencyButton .emergencyIcon img { width: 50px; }
-#emergencyNav .emergencyButton .emergencyTitle { float: right; width: 65px; font-size: 0.9em;  }
+#emergencyNav .emergencyButton .emergencyIcon { float: left; width: 55px; height: 55px; }
+#emergencyNav .emergencyButton .emergencyIcon img { max-width: 100%; max-height: 100%; }
+#emergencyNav .emergencyButton .emergencyTitle { float: right; width: 60px; font-size: 0.8em;  }
 
 #emergencyProcedures { border:1px solid #ccc;width:222px;float:right;clear:right;margin-bottom:20px; }
 #emergencyProcedures #emergencyProceduresTitle { background-color:#004b8d;color:#ffffff;border-bottom:1px solid #f3f3f3;font-size:1.2em;padding:3px 5px; }
@@ -144,13 +144,21 @@
 
 .news-story { }
 .news-story .news-top { overflow: auto; width: 100%; background-image: url('/media/website-resources/images/emails/flame/shortBarDashed.png'); background-repeat: no-repeat; background-position: bottom left; background-size: 48%; }
-.news-story .news-top .news-info { width: 48%; float: left; height: 100%; padding-bottom: 15px; }
-.news-story .news-top .news-photo { float: right; width: 48%; }
-.news-story .news-top .news-photo img { width: 100%; }
+.news-story.event .news-top { background-image: none; }
+.news-story.event .news-top.photo { margin-bottom: 18px; }
+.news-story .news-top .news-info { height: 100%; padding-bottom: 15px; }
+.news-story .news-top.photo .news-info { width: 48%; float: left; }
+.news-story .news-top .news-photo { float: right; width: 48%; display: none; }
+.news-story .news-top.photo .news-photo { display: inline-block; }
+.news-story .news-top .news-photo img { width: 100%; vertical-align: top; }
 .news-story .news-top .news-info .news-category { margin: 5px 0px; text-transform: uppercase; font-family: 'Oswald'; font-size: 0.9em; letter-spacing: 1px; }
 .news-story .news-top .news-info .news-title { margin: 0px; }
 .news-story .news-top .news-info .news-date-author { margin: 5px 0px; font-size: 0.9em; }
 .news-story .news-top .news-info .news-share-top { margin: 10px 0px; }
+.news-story.event .event-info { background-color: #f3f3f3; padding: 18px; }
+.news-story.event .event-info .when { display: inline-block; margin-right: 10px; font-weight: bold; min-width: 75px; }
+.news-story.event .event-info .where { display: inline-block; margin-right: 10px; font-weight: bold; min-width: 75px; }
+.news-story.event .event-info .infoPiece { margin-top: 5px; }
 .news-story .news-share-bottom { margin: 15px 0px; }
 
 #eventItemContainer { width:450px; float: left;margin-top:20px;margin-bottom:20px; }
@@ -203,7 +211,7 @@
 #calendarContainer .calendar-day-np { border:1px solid #f3f3f3; background-color:#f3f3f3 }
 #calendarContainer .day-number { font-size:1.1em; position:relative; top:0px; left:0px; }
 #calendarContainer .day-number .dot { height:10px; width:10px; background-color:#c7e0f0; position:absolute; left:50%; top:50%; margin-left:-5px; margin-top:15px; border-radius:5px; }
-#monthTitle { width:105px; height:1em; text-transform:uppercase; font-size:1.1em; text-align:center; font-weight:bold; overflow-y:hidden; position:absolute; top:0px; left:50%; margin-left:-62px; z-index:11; }
+#monthTitle { width:105px; height:1.1em; text-transform:uppercase; font-size:1.1em; text-align:center; font-weight:bold; overflow-y:hidden; position:absolute; top:0px; left:50%; margin-left:-62px; z-index:11; }
 #monthTitle a, #monthTitle a:visited { color: inherit; }
 #monthTitle:hover { height:2em; overflow-y:visible; }
 #monthTitle .curMonth { cursor:pointer; }
@@ -345,6 +353,13 @@
 
 .dashedSpacer { height: .5em; margin-top: .5em; border-top: 1px dashed #ccc; width: 100%; clear: both; }
 
+/* Pagebreak */
+
+.pagebreak { height: 1px; margin: .5em auto; width: 100%; clear: both; }
+.pagebreak.dashed { border-top: 1px dashed #ccc; }
+.pagebreak.blue { background-color: #002460; }
+.pagebreak.yellow { background-color: #fed000; }
+
 /* Counselor Details */
 
 #counselorContainer { width: 100%; position: relative; top: 0px; left: 0px; }
@@ -354,9 +369,9 @@
 #counselorContainer #counselorPhoto #hometown { position: absolute; left: 0px; bottom: 40px; background-color: rgba(19,19,19,0.7); font-size: 0.9em; color: #ffffff; padding: 8px 0px; width: 100%; text-indent: 5px; }
 #counselorContainer #counselorPhoto #hometown .label { color: #fed000; display: inline-block; }
 #counselorContainer #counselorPhoto #contact { position: absolute; left: 0px; bottom: 0px; background-color: #004b8d; color: #ffffff; font-size: 0.8em; width: 100%; max-height: 40px; overflow: hidden; }
-#counselorContainer #counselorPhoto #contact #email { margin: 7px; padding: 5px 20px 5px 35px; border-right: 1px solid #ffffff; float: left; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/email.png'); background-position: left center; background-repeat: no-repeat; }
+#counselorContainer #counselorPhoto #contact #email { margin: 7px; padding: 5px 12px 5px 35px; border-right: 1px solid #ffffff; float: left; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/email.png'); background-position: left center; background-repeat: no-repeat; }
 #counselorContainer #counselorPhoto #contact #email a { color: inherit; }
-#counselorContainer #counselorPhoto #contact #phone { margin: 7px; padding: 5px 20px 5px 35px; float: left; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/phone.png'); background-position: left center; background-repeat: no-repeat; }
+#counselorContainer #counselorPhoto #contact #phone { margin: 7px; padding: 5px 20px 5px 24px; float: left; background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/phone.png'); background-position: left center; background-repeat: no-repeat; }
 #counselorContainer #counselorPhoto #contact #phone a { color: #ffffff !important; }
 #counselorContainer #counselorPhoto #contact #facebook { background-color: #ffffff; width: 60px; height: 40px; background-image: url('https://txwes.edu/media/twu/style-assets/images/responsive/facebook_hover.png'); float: right; margin-right: 20px; background-size: 30px; background-repeat: no-repeat; background-position: center; }
 #counselorContainer #counselorInfo { width: 100%; overflow: auto; }
@@ -431,6 +446,7 @@
 .button.pencil { background-image: url('https://txwes.edu/media/twu/style-assets/images/buttons/pencil.png'); }
 .button.apply { background-image: url('/media/twu/style-assets/images/buttons/apply.png'); }
 .button.chat { background-image: url('/media/twu/style-assets/images/buttons/conversation.png'); }
+.button.dollar { background-image: url('/media/twu/style-assets/images/buttons/dollar.png'); }
 .button.info { background-image: url('/media/twu/style-assets/images/buttons/info.png'); }
 .button.people { background-image: url('/media/twu/style-assets/images/buttons/people.png'); }
 .button.talk { background-image: url('/media/twu/style-assets/images/buttons/provost-icon.png'); }
@@ -445,6 +461,7 @@
 .button.email { background-image: url('/media/twu/style-assets/images/buttons/email.png'); }
 .button.blackboard { background-image: url('/media/twu/style-assets/images/buttons/blackboard_icon_button-31.png'); }
 .button.download { background-image: url('/media/twu/style-assets/images/buttons/download_button.png'); }
+.button.ticket { background-image: url('/media/twu/style-assets/images/buttons/ticket.png'); }
 .button.none { padding: 7px 10px; }
 .button.grey { background-color: #cccccc; }
 
@@ -479,6 +496,15 @@
 .table.data .row:hover .cell:first-child { background-color: #d5e5ef; }
 .table.data.nohover .row:hover .cell:first-child { background-color: transparent; }
 .table.data .row:last-child .cell { border-bottom: none; }
+
+/* Responsive DOM Table */
+
+.responsive-table table { display: table; border-bottom: 1px dashed #ccc; width: 100%; }
+.responsive-table.eventcells table { table-layout: fixed; }
+.responsive-table table tr { display: table-row; width: 100%; }
+.responsive-table table tr:hover { background-color: #f3f3f3; }
+.responsive-table.nohover table tr:hover { background-color: transparent; }
+.responsive-table table tr td { display: table-cell; padding: 10px 5px; border-top: 1px dashed #ccc; }
 
 /* AC-Form -- Legacy */
 
@@ -584,6 +610,9 @@ form .instructions { margin-bottom: 10px; }
 .ctaOptionsCT .ctaOption.location { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/cta_campus.png'); }
 .ctaOptionsCT .ctaOption.money { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/cta_cost.png'); }
 .ctaOptionsCT .ctaOption.undergraduate { background-image:url('/media/twu/style-assets/images/buttons/cta_undergraduate.png'); background-size: 55px; padding-left: 85px; }
+.ctaOptionsCT .ctaOption.advising { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/button_icon_advising.png'); }
+.ctaOptionsCT .ctaOption.professor { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/button_icon_contactProfessor.png'); }
+.ctaOptionsCT .ctaOption.register { background-image:url('https://cms.txwes.edu/media/twu/style-assets/images/buttons/button_icon_register.png'); }
 
 /* CTA Options - President's Site */
 
@@ -731,6 +760,7 @@ form .instructions { margin-bottom: 10px; }
 .verticalNewsList .newsItem { overflow: auto; padding: 10px 0px; border-bottom: 1px dashed #ccc; }
 .verticalNewsList .newsItem:last-child { border: none; }
 .verticalNewsList .newsItem .image { float: left; width: 125px; margin-right: 15px; min-height: 80px; background-image: url('/media/twu/style-assets/images/news-placeholder.png'); background-repeat: no-repeat; background-position: center; background-size: contain; vertical-align: top; position: relative; top: 0px; left: 0px; }
+#contentCT.oneCol .verticalNewsList .newsItem .image { width: 250px; }
 .verticalNewsList .newsItem .image img { display: block; vertical-align: top; }
 .verticalNewsList .newsItem .image .videoIcon { position: absolute; bottom: 0px; right: 0px; }
 .verticalNewsList .newsItem .category { text-transform: uppercase; font-family: 'Oswald'; font-size: 0.8em; margin-left: 140px; letter-spacing: 1px; }
@@ -741,6 +771,7 @@ form .instructions { margin-bottom: 10px; }
 .verticalNewsList .moreNews.white { clear: both; border: 1px solid #ccc; text-align: center; margin-top: 20px; background-color: #ffffff; }
 .verticalNewsList .moreNews.white table { width: 125px; margin: 0px auto; }
 .verticalNewsListControls { width: 100%; text-align: center; clear: both; margin-top: 15px; }
+#contentCT.oneCol .verticalNewsList .newsItem .image { width: 250px; }
 
 .pagination { clear: both; margin-top: 20px; text-align: center; }
 .pagination * {  margin: 0px 2px; padding: 0px 2px; display: none; }
@@ -768,15 +799,18 @@ form .instructions { margin-bottom: 10px; }
 /* News Rotator */
 
 .news-rotator { width: 100%; border-bottom: 1px dashed #ccc; position: relative; top: 0px; left: 0px; padding-bottom: 35px; margin-bottom: 20px; }
-.news-rotator .rotator-item { position: absolute; top: 0px; left: 0px; background-color: #f3f3f3; }
-.news-rotator .rotator-item .rotator-photo { float: left; width: 48%; }
+.news-rotator .rotator-item { position: absolute; top: 0px; left: 0px; background-color: #f3f3f3; overflow: hidden; }
+.news-rotator .rotator-item:first-of-type { position: relative; }
+.news-rotator .rotator-item .rotator-photo { float: left; width: 48%; position: relative; top: 0px; left: 0px; }
 .news-rotator .rotator-item .rotator-photo img { width: 100%; vertical-align: top; }
+.news-rotator .rotator-item .rotator-photo iframe { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%; margin: auto; }
+.news-rotator .rotator-item .rotator-photo .videoIcon { position: absolute; bottom: 7px; right: 7px; width: auto; }
 .news-rotator .rotator-item .rotator-category { text-transform: uppercase; font-family: 'Oswald'; font-size: 0.7em; margin-bottom: 8px; color: #004b8d; letter-spacing: 1px; }
 .news-rotator .rotator-item .rotator-title { float: right; width: 48%; clear: right; font-size: 1.3em; margin: 20px 0px 8px; color: #000000; }
 .news-rotator .rotator-item .rotator-title a { color: inherit; }
 .news-rotator .rotator-item .rotator-teaser { float: right; width: 48%; clear: right; margin: 12px 0px; font-size: 0.9em; }
 .news-rotator .rotator-item .rotator-teaser a { color: inherit; }
-.news-rotator .rotator-item .rotator-more { float: right; width: 48%; clear: right; }
+.news-rotator .rotator-item .rotator-more { float: right; width: 48%; clear: right; margin-bottom: 12px; }
 .news-rotator .rotator-controls { height: 25px; width: 100%; text-align: center; clear: both; position: absolute; bottom: 5px; left: 0px; }
 .news-rotator .rotator-controls .rotator-bullet { cursor: pointer; display: inline-block; height: 25px; width: 25px; background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorGreyDot.png'); background-repeat: no-repeat; background-position: center center; }
 .news-rotator .rotator-controls .rotator-bullet.current { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepageRotatorYellowDot.png'); }

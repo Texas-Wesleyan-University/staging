@@ -33,6 +33,7 @@ img[src=""] { display: none; }
 /* Page Layouts and Styles */
 
 #outerCT { width: 1000px; margin-left: auto; margin-right: auto; }
+#outerCT.noHeader { padding-top: 50px; }
 
 #headerCT { color: #ffffff; position: relative; top: 0px; left: 0px; }
 #headerCT a, #headerCT a:visited { color: inherit; }
@@ -61,21 +62,25 @@ img[src=""] { display: none; }
 #footerCT #footerContactInfo .contactInfo { font-size: 0.9em; overflow: auto; }
 #footerCT #footerSocial { float: left; width: 253px; padding: 20px 40px; overflow: auto; }
 #footerCT #footerSocial .socialTitle { font-size: 1.2em; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
-#footerCT #footerSocial .socialButton { margin-right: 20px; float: left; height: 51px; width: 51px; }
-#footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/facebook.png'); }
-#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+#footerCT #footerSocial .socialButton { margin-right: 10px; margin-bottom: 10px; float: left; height: 40px; width: 40px; background-repeat: no-repeat; background-position: center; background-size: contain; }
+#footerCT #footerSocial .socialButton.facebook { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb.png'); }
+#footerCT #footerSocial .socialButton.facebook:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/fb_h.png'); }
 #footerCT #footerSocial .socialButton.twitter { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter.png'); }
-#footerCT #footerSocial .socialButton.twitter:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+#footerCT #footerSocial .socialButton.twitter:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/twitter_h.png'); }
 #footerCT #footerSocial .socialButton.youtube { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube.png'); }
-#footerCT #footerSocial .socialButton.youtube:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+#footerCT #footerSocial .socialButton.youtube:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/youtube_h.png'); }
+#footerCT #footerSocial .socialButton.linkedin { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/linkedin.png'); }
+#footerCT #footerSocial .socialButton.linkedin:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/linkedin_h.png'); }
+#footerCT #footerSocial .socialButton.instagram { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/instagram.png'); }
+#footerCT #footerSocial .socialButton.instagram:hover { background-image: url('https://txwes.edu/media/twu/style-assets/images/homepage/instagram_h.png'); }
 
 #footerCT #copyright { width: 960px; border-top: 1px solid rgba(255,255,255,0.5); color: rgba(255,255,255,0.5); text-align: center; font-size: 0.8em; padding: 15px 0px; float: left; margin: 0px 20px; }
 #footerCT #copyright #privacyPolicy { color: #ffffff; border-left: 1px solid rgba(255,255,255,0.5); padding-left: 10px; margin-left: 10px; }
 
 #goToCT { display: none; }
 
-#topBanner { width: 100%; background-color: #FFFFFF; clear: both; }
-#topBanner img { width: 100%; }
+#topBanner { width: 100%; background-color: #FFFFFF; clear: both; text-align: center; }
+#topBanner img { max-width: 100%; vertical-align: top; margin: 0px auto; }
 
 #contentCT { width: 1000px; background-color: #ffffff; margin: 0; padding: 0; overflow: auto; }
 #contentCT #centerCol { width: 544px; float: left; margin: 32px 60px 70px 52px; }
@@ -83,10 +88,33 @@ img[src=""] { display: none; }
 
 #contentCT.oneCol #centerCol { width: 896px; float: none; margin: 32px 52px 70px 52px; }
 
+#contentCT.transparent { background-color: transparent; }
+#contentCT.transparent #centerCol { background-color: #ffffff; padding: 32px 52px 70px 52px; margin: 0px auto; width: auto;  }
+#contentCT.transparent #topBanner { background-color: transparent; }
+
 #bottomBanner { width: 100%; background-color: #191919; clear: both; }
 #bottomBanner img { width: 100%; }
 
 @font-face { font-family: 'tradeGothic'; src: url('https://txwes.edu/media/twu/style-assets/font/TRADE-GOTHIC-BOLD-CONDENSED-NO-20.TTF'); }
 
-#topBanner .lpTextBanner { background-image: url('https://txwes.edu/media/twu/style-assets/images/landing_page_blue_banner.png'); min-height: 172px; background-repeat: no-repeat; overflow: auto; }
-#topBanner .lpTextBanner .text { font-family: 'Oswald', 'tradeGothic', Impact, Charcoal, sans-serif ; font-size: 2em; color: #002460; padding: 20px 44px 20px 26px; background-color: #fed000; margin-top: 22px; max-width: 55%; display: inline-block; text-transform: uppercase; letter-spacing: 1px; }
+#topBanner .lpTextBanner { background-image: url('https://txwes.edu/media/twu/style-assets/images/landing_page_blue_banner.png'); min-height: 172px; background-repeat: no-repeat; overflow: auto; position: relative; top: 0px; left: 0px; background-size: cover; text-align: left; }
+#topBanner .lpTextBanner .text { font-family: 'Oswald', 'tradeGothic', Impact, Charcoal, sans-serif ; font-size: 2em; color: #002460; padding: 20px 44px 20px 26px; background-color: #fed000; margin-top: 22px; max-width: 55%; display: inline-block; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 22px; }
+
+#topBanner .lpTextBanner.cta .text { color: #fed000; background-color: transparent; max-width: 56%; padding: 20px 0px 20px 50px; }
+#topBanner .lpTextBanner.cta .button { position: absolute; right: 50px; top: 50%; margin-top: -1.2em; padding: 14px 20px 14px 60px; border-bottom: #b7a763 4px solid; font-size: 1.3em; font-weight: bold; }
+
+#topBanner .news-rotator { border-bottom: none; text-align: left; margin-bottom: 0px; }
+#topBanner .news-rotator .rotator-item { background-color: rgba(0,0,0,0.5); }
+#topBanner .news-rotator .rotator-item .rotator-title { color: #ffffff; width: 35%; font-size: 1.5em; font-weight: bold; padding-right: 3%;}
+#topBanner .news-rotator .rotator-item .rotator-title .rotator-category { color: #5c8ab9; font-weight: normal; }
+#topBanner .news-rotator .rotator-item .rotator-photo { width: 60%; }
+#topBanner .news-rotator .rotator-item .rotator-teaser { width: 35%; color: #ffffff; font-size: 1.2em; margin-bottom: 30px; padding-right: 3%; }
+#topBanner .news-rotator .rotator-item .rotator-more { width: 38%; margin-bottom: 18px; }
+#topBanner .news-rotator .rotator-controls {  }
+
+#topBanner .video { width: 100%; margin-left: auto; margin-right: auto; position: relative; top: 0px; left: 0px; }
+#topBanner .video img { width: 100%; }
+#topBanner .video iframe { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+#topBanner .video object { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+#topBanner .video embed { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+#topBanner .video video { width: 100% !important; height: 100% !important; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }

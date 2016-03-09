@@ -1,6 +1,6 @@
 @media screen and (max-width: 479px) {
 	
-	#headerTop #logo { width: 119px; height: 46px; top: 12px; left: 10px; background-image: url('http://cms.txwes.edu/media/twu/style-assets/images/university-logo-320_125.png'); }
+	#headerTop #logo { width: 119px; height: 46px; top: 12px; left: 10px; background-image: url('http://cms.txwes.edu/media/twu/style-assets/images/university-logo-320.png'); }
 	
 	/* Homepage Content */
 	
@@ -55,5 +55,9 @@
 	#contentCT.newsEvents .horizontalNewsList .newsItem .image, #contentCT.newsEvents .horizontalNewsList .newsItem .title { width: 100%; margin: 0px auto; }
 	#contentCT.newsEvents .horizontalNewsList .newsItem .category { width: 100%; margin: 8px auto 10px; }
 	.horizontalNewsList .newsItem .image img:first-child { width: 100%; }
+	
+	/* 125 Anniversary */
+	#headerTop #logo { width: 110px; }
+	.onetwentyfivemobileflag { margin-left: 124px; width: 35px; height: 28px; top: 23px; background-size: 37px; background-position: center -7px; }
 	
 }
