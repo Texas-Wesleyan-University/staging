@@ -355,10 +355,11 @@
 
 /* Pagebreak */
 
-.pagebreak { height: 1px; margin: .5em auto; width: 100%; clear: both; }
+.pagebreak { height: 1px; margin: 1em auto; width: 100%; clear: both; }
 .pagebreak.dashed { border-top: 1px dashed #ccc; }
 .pagebreak.blue { background-color: #002460; }
 .pagebreak.yellow { background-color: #fed000; }
+.pagebreak.double { margin: 2em auto; }
 
 /* Counselor Details */
 
@@ -452,7 +453,7 @@
 .button.talk { background-image: url('/media/twu/style-assets/images/buttons/provost-icon.png'); }
 .button.medal { background-image: url('/media/twu/style-assets/images/buttons/gift.png'); }
 .button.video { background-image: url('/media/twu/style-assets/images/buttons/video.png'); }
-.button.go { background-image: url('/media/twu/style-assets/images/buttons/arrow_white.png'); padding: 7px 25px 7px 10px; background-position: right center; min-width: 200px; }
+.button.go { background-image: url('/media/twu/style-assets/images/buttons/arrow_white.png'); padding: 7px 35px 7px 10px; background-position: right -5px center; min-width: 200px; }
 .button.calendar { background-image: url('/media/twu/style-assets/images/buttons/calendar.png'); }
 .button.calendar.grey { background-image: url('/media/twu/style-assets/images/buttons/calendar-grey.png'); }
 .button.idea { background-image: url('/media/twu/style-assets/images/buttons/my_idea_box.png'); }
@@ -462,8 +463,10 @@
 .button.blackboard { background-image: url('/media/twu/style-assets/images/buttons/blackboard_icon_button-31.png'); }
 .button.download { background-image: url('/media/twu/style-assets/images/buttons/download_button.png'); }
 .button.ticket { background-image: url('/media/twu/style-assets/images/buttons/ticket.png'); }
+.button.camera { background-image: url('/media/twu/style-assets/images/buttons/camera.png'); }
 .button.none { padding: 7px 10px; }
-.button.grey { background-color: #cccccc; }
+.button.grey { background-color: #e6e6e6; }
+.button.white { background-color: transparent; color: #004b8d; font-size: normal; }
 
 /* Bordered Header */
 
@@ -558,9 +561,9 @@ form .instructions { margin-bottom: 10px; }
 .whoCanHelpCT .whoCanHelp.content { padding: 15px; }
 .whoCanHelpCT .whoCanHelp.image { width: 100%; }
 .whoCanHelpCT .whoCanHelp.image img { width: 100% !important; max-width: 100%; height: auto !important; }
-.whoCanHelpCT .whoCanHelp.text { padding: 10px 0px; margin-bottom: 10px; }
+.whoCanHelpCT .whoCanHelp.text { padding: 10px 0px; margin-bottom: 10px; font-size: .9em; }
 .whoCanHelpCT .whoCanHelp.text a { color: inherit; }
-.whoCanHelpCT .button { width: 100%; padding-left: 0px; padding-right: 0px; text-align: center; }
+.whoCanHelpCT .button { width: 100%; padding-left: 0px; padding-right: 0px; text-align: center; font-size: .9em; background-color: #ffffff; }
 
 /* Left Column Rich Text Content */
 
@@ -745,13 +748,13 @@ form .instructions { margin-bottom: 10px; }
 .horizontalNewsList .moreNews.white { clear: both; border: 1px solid #ccc; text-align: center; margin-top: 20px; background-color: #ffffff; }
 .horizontalNewsList .moreNews.white table { width: 125px; margin: 0px auto; }
 .horizontalNewsListControls { width: 100%; text-align: center; clear: both; margin-top: 15px; }
-#contentCT.newsEvents .horizontalNewsList .newsItem { width: 33%; }
+#contentCT.newsEvents .horizontalNewsList .newsItem, #contentCT.hp .horizontalNewsList .newsItem { width: 33%; }
 .horizontalNewsList .newsItem .category { width: 90%; margin: 8px auto 10px; font-size: 0.8em; font-family: 'Oswald'; text-transform: uppercase; letter-spacing: 1px; }
 .horizontalNewsList .newsItem:nth-child(2) .category { margin: 8px auto 10px 0px; }
 .horizontalNewsList .newsItem:nth-child(4n+1) .category { margin: 8px 0px 10px auto; }
 .horizontalNewsList .newsItem:nth-child(4n+2) .category { margin: 8px auto 10px 0px; }
-#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .image, #contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .title { margin: 0px 0px 0px auto; }
-#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .category { margin: 8px 0px 10px auto; }
+#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .image, #contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .title, #contentCT.hp .horizontalNewsList .newsItem:nth-child(4n) .image, #contentCT.hp .horizontalNewsList .newsItem:nth-child(4n) .title { margin: 0px 0px 0px auto; }
+#contentCT.newsEvents .horizontalNewsList .newsItem:nth-child(4n) .category, #contentCT.hp .horizontalNewsList .newsItem:nth-child(4n) .category { margin: 8px 0px 10px auto; }
 
 /* Vertical News List */
 
@@ -853,7 +856,9 @@ form .instructions { margin-bottom: 10px; }
 /* News & Events Combined list */
 
 .newsEvents2ColCt { overflow: auto; padding-top: 10px; border-top: 1px dashed #ccc; }
+#contentCT.hp .newsEvents2ColCt { border: none; }
 .newsEvents2ColCt .verticalNewsList { float: left; width: 460px; }
+#contentCT.hp .newsEvents2ColCt .verticalNewsList { width: 680px; }
 .newsEvents2ColCt .verticalNewsList .news-header { border-top: none; padding-top: 0px; font-size: 2em; }
 .newsEvents2ColCt #upcomingEventsList { float: right; width: 224px; }
 
